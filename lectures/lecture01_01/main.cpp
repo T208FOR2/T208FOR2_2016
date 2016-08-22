@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 int main()
@@ -9,6 +10,8 @@ int main()
 
     char takn = 'a';
     string nafn = "Eyjolfur Ingi Asgeirsson";
+
+    unsigned int jakvaed_tala = 0;
 
     cout << "Tala = " << tala << endl;
     return 0;
