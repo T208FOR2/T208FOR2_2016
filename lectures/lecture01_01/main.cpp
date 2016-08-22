@@ -14,6 +14,8 @@ int main()
 
     tala = tala + 5;
 
+    cout << "This is "something"" << endl;
+    cout << "or something else" << endl;
     cout << "Tala = " << tala << endl;
     return 0;
 }
