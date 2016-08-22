@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    int tala;
+    int tala = 42;
 
     cout << "Tala = " << tala << endl;
     return 0;
