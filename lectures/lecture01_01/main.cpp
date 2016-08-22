@@ -2,9 +2,15 @@
 #include <string>
 using namespace std;
 
+/*
+This is a very
+long comment
+*/
+
+// the main function
 int main()
 {
-    int tala = 42;
+    int tala = 42;  // this is a comment
     double brotatala = 3.1415;
     bool class_is_finished = false;
 
