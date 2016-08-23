@@ -34,8 +34,11 @@ int main()
     cout << num1 << " + " << num2 << " = " << num1 + num2 << endl;
     cout << num1 << " - " << num2 << " = " << num1 - num2 << endl;
     cout << num1 << " * " << num2 << " = " << num1 * num2 << endl;
-    cout << num1 << " / " << num2 << " = " << num1 / num2 << endl;
-    cout << num1 << " % " << num2 << " = " << num1 % num2 << endl;
+    if( num2 != 0)
+    {
+        cout << num1 << " / " << num2 << " = " << num1 / num2 << endl;
+        cout << num1 << " % " << num2 << " = " << num1 % num2 << endl;
+    }
 
     /* ==================
       Sınidæmi 2
