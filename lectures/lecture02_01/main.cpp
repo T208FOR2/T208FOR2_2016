@@ -5,9 +5,10 @@ using namespace std;
 
 int main()
 {
-    int a;
+    int a,b;
     cout << "This is the start of the program" << endl;
     cin >> a;
-    cout << "The number is " << a << endl;
+    cin >> b;
+    cout << "The numbers are " << a << " and " << b << endl;
     return 0;
 }
