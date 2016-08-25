@@ -6,6 +6,8 @@ int main()
     int tala;
     cin >> tala;
 
+    cout << "1: " << tala << endl;
+
     if (tala = 42) {
         cout << "You wrote 42!" << endl;
     }
@@ -15,6 +17,8 @@ int main()
     else {
         cout << "You wrote a wrong number" << endl;
     }
+
+    cout << "2: " << tala << endl;
 
 
     return 0;
