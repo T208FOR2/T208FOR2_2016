@@ -5,10 +5,17 @@ using namespace std;
 
 int main()
 {
+    string a,b;
+    cout << "Write something: " << endl;
+    cin >> a >> b;
+    cout << "You wrote " << a << " and " << b << endl;
+
+/*
     char a,b;
     cout << "Write something: " << endl;
     cin >> a >> b;
     cout << "You wrote " << a << " and " << b << endl;
+*/
 /*
     double d = 0.2;
     double epsilon = 0.000000000000000001;
