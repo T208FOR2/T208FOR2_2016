@@ -6,7 +6,7 @@ int main()
     int tala;
     cin >> tala;
 
-    if (tala == 42) {
+    if (tala = 42) {
         cout << "You wrote 42!" << endl;
     }
     else if (tala > 0) {
