@@ -11,6 +11,7 @@ int main()
 
     while (counter < numberofhellos) {
         cout << "Hello!" << endl;
+        counter++;
     }
 
     return 0;
