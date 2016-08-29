@@ -8,8 +8,9 @@ int main()
     cin >> numberofhellos;
 
     int counter = 0;
+    bool firstiteration = true;
 
-    while (counter < numberofhellos) {
+    while (counter < numberofhellos || firstiteration) {
         cout << "Hello! - " << counter++ << endl;
     }
 
