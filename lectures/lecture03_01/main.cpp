@@ -4,25 +4,17 @@ using namespace std;
 
 int main()
 {
-    int a,b,c;
-    cin >> a >> b >> c;
+    int count, x,y;
+    cin >> count >> x >> y;
 
-    if (b && a) {
-        cout << "b && a is true???" << endl;
+    if (count < 10)
+    if (x < y)
+    {
+    cout << x << " is less than " << y << endl;
     }
-    else {
-        cout << "b && a is not true...?" << endl;
-    }
-
-    cout << "The largest number is: ";
-    if (a >= b && a >= c) {
-        cout << a << endl;
-    }
-    else if (b >= a && b >= c) {
-        cout << b << endl;
-    }
-    else {
-        cout << c << endl;
+    else
+    {
+    cout << x << " is greater than " << y << endl;
     }
 
     return 0;
