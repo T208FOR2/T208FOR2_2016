@@ -4,20 +4,15 @@ using namespace std;
 
 int main()
 {
-    int count, x,y;
-    cin >> count >> x >> y;
 
-    if (count < 10)
-    {
-    if (x < y)
-    {
-    cout << x << " is less than " << y << endl;
+    int n;
+    cout << "How many stars? ";
+    cin >> n;
+
+    for ( int i = 0; i < n; i++) {
+        cout << "*";
     }
-    }
-    else
-    {
-    cout << x << " is greater than " << y << endl;
-    }
+    cout << endl;
 
     return 0;
 }
