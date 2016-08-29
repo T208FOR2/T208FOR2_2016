@@ -10,8 +10,9 @@ int main()
     int counter = 0;
 
     while (counter < numberofhellos) {
-        cout << "Hello!" << endl;
+        cout << "Hello! - ";
         counter++;
+        cout << counter << endl;
     }
 
     return 0;
