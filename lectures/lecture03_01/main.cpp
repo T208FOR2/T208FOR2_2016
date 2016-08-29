@@ -8,9 +8,11 @@ int main()
     cin >> count >> x >> y;
 
     if (count < 10)
+    {
     if (x < y)
     {
     cout << x << " is less than " << y << endl;
+    }
     }
     else
     {
