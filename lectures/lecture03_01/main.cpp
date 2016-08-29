@@ -12,6 +12,7 @@ int main()
 
     while (counter < numberofhellos || firstiteration) {
         cout << "Hello! - " << counter++ << endl;
+        firstiteration = false;
     }
 
     return 0;
