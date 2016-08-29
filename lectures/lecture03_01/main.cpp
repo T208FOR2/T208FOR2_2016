@@ -4,15 +4,10 @@ using namespace std;
 
 int main()
 {
-    int numberofhellos;
-    cin >> numberofhellos;
-
-    int counter = 0;
-    bool firstiteration = true;
-
-    while (counter < numberofhellos || firstiteration) {
-        cout << "Hello! - " << counter++ << endl;
-        firstiteration = false;
+    int x = 0;
+    while (x = 1) {
+        cout << x << endl;
+        x++;
     }
 
     return 0;
