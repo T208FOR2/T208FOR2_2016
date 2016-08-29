@@ -2,12 +2,16 @@
 
 using namespace std;
 
+// BARA FASTAR HÉRNA!
+const int CURRENTYEAR = 2016;
+
 int main()
 {
-    int x = 0;
-    while (x = 1) {
-        cout << x << endl;
-        x++;
+    int startyear;
+    cin >> startyear;
+    while (startyear < CURRENTYEAR) {
+        cout << startyear << endl;
+        startyear++;
     }
 
     return 0;
