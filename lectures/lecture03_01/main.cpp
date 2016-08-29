@@ -12,10 +12,10 @@ int main()
     int i;
     for ( i = 0; i < n; i++)
     {
-        cout << "*";
-    }
-    cout << endl;
-    cout << i << endl;
+        if (i % 7 != 0)
+            continue;
 
+        cout << i << endl;
+    }
     return 0;
 }
