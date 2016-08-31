@@ -23,6 +23,7 @@ int main()
        til um, þ.e. prenta til skiptis ’X’ og bil, og byrja til skiptis hverja línu á ’X’ eða bili. Fyrsti reitur
        sem þið prentið út á að vera X.
        ================== */
+
     cout << "SYNIDAEMI 1" << endl;
     int n;
     cin >> n;
