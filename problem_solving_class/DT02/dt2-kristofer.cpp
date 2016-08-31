@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// Yfirlýsi föllum hér (segi að þau séu til)
+// Yfirlýsing á föllum hér (segi að þau séu til)
 // Skilgreini (útfæri) föllin fyrir neðan main
 int sum(int a, int b, int c);
 int max(int a, int b, int c);
@@ -10,13 +10,12 @@ double avg(int a, int b, int c);
 
 
 int main(){
-     /* ==================
-        Sýnidæmi 1
-        Skrifið forrit sem tekur inn eina tölu og prentar út "skákborð" í þeirri stærð sem talan segir
-        til um, þ.e. prenta til skiptis ’X’ og bil, og byrja til skiptis hverja línu á ’X’ eða bili. Fyrsti reitur
-        sem þið prentið út á að vera X.
-        ================== */
-     
+  /* ==================
+     Sýnidæmi 1
+     Skrifið forrit sem tekur inn eina tölu og prentar út "skákborð" í þeirri stærð sem talan segir
+     til um, þ.e. prenta til skiptis ’X’ og bil, og byrja til skiptis hverja línu á ’X’ eða bili. Fyrsti reitur
+     sem þið prentið út á að vera X.
+     ================== */
      int chessBoardHeight;
      cin >> chessBoardHeight;
 
@@ -61,11 +60,11 @@ int main(){
 
 
 
+
      /* ==================
         Dæmi 1
         Skrifið forrit sem tekur inn eina tölu og prentar út pýramída í þeirri hæð sem talan segir til um.
         ================== */
-
      int pyramidHeight;
      cin >> pyramidHeight;
 
@@ -103,7 +102,7 @@ int main(){
         - Les inn þrjár heiltölur frá notenda
         - Fall sem tekur inn þrjár heiltölur og skilar summu þeirra
         - Fall sem tekur inn þrjár heiltölur og skilar hæstu tölunni
-        - Forritið á að nota fÃ�llin til að reikna summu talnanna og finna hæsta gildið
+        - Forritið á að nota föllin til að reikna summu talnanna og finna hæsta gildið
         ================== */
      int num1, num2, num3;
      cin >> num1 >> num2 >> num3;
@@ -117,7 +116,7 @@ int main(){
         - Les inn þrjár heiltölur frá notenda
         - Fall sem tekur inn þrjár heiltölur og skilar meðaltali þeirra
         - Fall sem tekur inn þrjár heiltölur og skilar minnstu tölunni
-        - Forritið á að nota fÃ�llin til að reikna meðaltal talnanna og finna lægsta gildið
+        - Forritið á að nota föllin til að reikna meðaltal talnanna og finna lægsta gildið
         ================== */
 
      cout << "The average of " << num1 << "," << num2 << "," << num3 << " is " << avg(num1, num2, num3) << endl;
@@ -164,5 +163,5 @@ int min(int a, int b, int c)
 
 double avg(int a, int b, int c)
 {
-     return sum(a, b, c) / 3.0; // Athuga: Þarf að nota 3.0 til að fá aukastafi!
+     return sum(a, b, c) / 3.0; // Athuga: þarf að nota 3.0 til að færa aukastafi!
 }
