@@ -11,13 +11,10 @@ int max_grade(int a, int b, int c, int d);
 
 int main()
 {
-    int a,b,c,d;
-    cin >> a >> b >> c >> d;
+    int n;
+    cin >> n;
 
-    prenta_linu(6, 3, 4, '*');
-
-    int staersta;
-    staersta = max_grade(a,b,c,d);
+    prenta_pyramid(6, n, '*');
 
     return 0;
 }
@@ -25,7 +22,7 @@ int main()
 // Function definitions
 void prenta_pyramid(int hlidrun, int levels, char takn) {
     for (int i = 0; i < levels; i++) {
-        prenta_linu(hlidrun, levels - 1 - i, takn);
+        prenta_linu(hlidrun, levels - 1 - i, (i+1)*2, takn);
     }
 }
 
