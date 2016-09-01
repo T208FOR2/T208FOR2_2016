@@ -5,7 +5,7 @@ using namespace std;
 // Function declerations
 void prenta_linu(int hlidrun, int whitespace, int symbols, char takn);
 void prenta_pyramid(int hlidrun, int levels, char takn);
-void prenta_tree(int levels, char takn);
+void prenta_tree(int butar, char takn);
 
 int max_grade(int a, int b);
 int max_grade(int a, int b, int c);
@@ -16,12 +16,18 @@ int main()
     int n;
     cin >> n;
 
-    prenta_pyramid(6, n, '*');
+    prenta_tree(n, '*');
 
     return 0;
 }
 
 // Function definitions
+void prenta_tree(int butar, char takn) {
+    for (int i = 0; i < butar; i++) {
+        prenta_pyramid(butar - i - 1, 3 + i, takn);
+    }
+}
+
 void prenta_pyramid(int hlidrun, int levels, char takn) {
     for (int i = 0; i < levels; i++) {
         prenta_linu(hlidrun, levels - 1 - i, (i+1)*2, takn);
