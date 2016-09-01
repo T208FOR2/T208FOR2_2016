@@ -37,6 +37,18 @@ void prenta_linu(int hlidrun, int whitespace, int symbols, char takn) {
     return;
 }
 
+int max_grade(int a, int b) {
+    if (a >= b) {
+        return a;
+    }
+    else {
+        return b;
+    }
+}
+int max_grade(int a, int b, int c) {
+    return -1;
+}
+
 int max_grade(int a, int b, int c, int d) {
     if (a >= b && a >= c && a >= d) {
         return a;
