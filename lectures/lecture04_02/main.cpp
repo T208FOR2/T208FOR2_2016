@@ -37,10 +37,10 @@ void prenta_pyramid(int hlidrun, int levels, char takn) {
 void prenta_linu(int hlidrun, int whitespace, int symbols, char takn) {
     int i;
     for (i = 0; i < hlidrun; i++) {
-        cout << "_";
+        cout << " ";
     }
     for (i = 0; i < whitespace; i++) {
-        cout << "+";
+        cout << " ";
     }
     for (i = 0; i < symbols; i++) {
         cout << takn;
