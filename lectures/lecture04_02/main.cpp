@@ -21,7 +21,7 @@ int main()
 
 // Function definitions
 void prenta_linu(int hlidrun, int whitespace, int symbols, char takn) {
-    int i;
+    int i, hlidrun = 10;
     for (i = 0; i < hlidrun; i++) {
         cout << "_";
     }
