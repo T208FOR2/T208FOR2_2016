@@ -5,6 +5,8 @@ using namespace std;
 // Function declerations
 void prenta_linu(int hlidrun, int whitespace, int symbols, char takn);
 void prenta_pyramid(int hlidrun, int levels, char takn);
+void prenta_tree(int levels, char takn);
+
 int max_grade(int a, int b);
 int max_grade(int a, int b, int c);
 int max_grade(int a, int b, int c, int d);
