@@ -21,13 +21,14 @@ int main()
 
 // Function definitions
 void prenta_linu(int hlidrun, int whitespace, int symbols, char takn) {
-    for (int i = 0; i < hlidrun; i++) {
+    int i;
+    for (i = 0; i < hlidrun; i++) {
         cout << "_";
     }
-    for (int i = 0; i < whitespace; i++) {
+    for (i = 0; i < whitespace; i++) {
         cout << "+";
     }
-    for (int i = 0; i < symbols; i++) {
+    for (i = 0; i < symbols; i++) {
         cout << takn;
     }
     cout << endl;
