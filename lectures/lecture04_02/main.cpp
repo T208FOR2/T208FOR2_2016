@@ -31,6 +31,7 @@ void prenta_linu(int hlidrun, int whitespace, int symbols, char takn) {
         cout << takn;
     }
     cout << endl;
+    return;
 }
 
 int max_grade(int a, int b, int c, int d) {
@@ -43,7 +44,7 @@ int max_grade(int a, int b, int c, int d) {
     else if (c >= a && c >= b && c >= d) {
         return c;
     }
-    else {
+    else if (d >= a && d >= b && d >= c) {
         return d;
     }
 }
