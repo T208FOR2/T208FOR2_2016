@@ -46,7 +46,7 @@ int max_grade(int a, int b) {
     }
 }
 int max_grade(int a, int b, int c) {
-    return -1;
+    return max_grade(max_grade(a,b), c);
 }
 
 int max_grade(int a, int b, int c, int d) {
