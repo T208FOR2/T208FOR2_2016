@@ -4,6 +4,8 @@ using namespace std;
 
 // Function declerations
 void prenta_linu(int hlidrun, int whitespace, int symbols, char takn);
+int max_grade(int a, int b);
+int max_grade(int a, int b, int c);
 int max_grade(int a, int b, int c, int d);
 
 int main()
@@ -21,7 +23,7 @@ int main()
 
 // Function definitions
 void prenta_linu(int hlidrun, int whitespace, int symbols, char takn) {
-    int i, hlidrun = 10;
+    int i;
     for (i = 0; i < hlidrun; i++) {
         cout << "_";
     }
