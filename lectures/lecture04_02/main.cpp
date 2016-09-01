@@ -24,7 +24,9 @@ int main()
 
 // Function definitions
 void prenta_pyramid(int hlidrun, int levels, char takn) {
-
+    for (int i = 0; i < levels; i++) {
+        prenta_linu(hlidrun, levels - 1 - i, takn);
+    }
 }
 
 void prenta_linu(int hlidrun, int whitespace, int symbols, char takn) {
