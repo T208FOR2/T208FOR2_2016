@@ -47,4 +47,7 @@ int max_grade(int a, int b, int c, int d) {
     else if (d >= a && d >= b && d >= c) {
         return d;
     }
+    else {
+        return -1;
+    }
 }
