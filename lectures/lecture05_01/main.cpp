@@ -6,7 +6,7 @@ void rectangle(int w, int h, int& area, int& circumference);
 int main()
 {
     int w,h;
-    int a,c;
+    int a = 0,c = 0;
     cin >> w >> h;
 
     rectangle(w,h,a,c);
