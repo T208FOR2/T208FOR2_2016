@@ -9,9 +9,7 @@ int main()
     double a = 0,c = 0;
     cin >> w >> h;
 
-    bool calculationssuccessful = rectangle(w,h,a,c);
-
-    if (calculationssuccessful == true) {
+    if ( rectangle(w,h,a,c) ) {
         cout << "Area: " << a << endl;
         cout << "Circumference: " << c << endl;
     }
