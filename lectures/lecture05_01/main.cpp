@@ -8,8 +8,8 @@ int random_int(int max_value);
 
 int main()
 {
-    int seed;
-    cin >> seed;
+    int seed = -1;
+    //cin >> seed;
     initialize_random_generator(seed);
 
     int slembitala;
