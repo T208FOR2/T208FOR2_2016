@@ -18,7 +18,7 @@ int main()
 }
 
 double mean_grade(int a, int b, int c, int d) {
-    return 1.0;
+    return (a+b+c+d) / 4.0;
 }
 double weighted_mean_grade(int a, int b, int c, int d) {
     return 2.0;
