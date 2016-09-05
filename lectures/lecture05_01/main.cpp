@@ -5,6 +5,13 @@ int somefunction(int &tala1, int tala2, int &tala3);
 
 int main()
 {
+    int a,b,c;
+    cin >> a >> b >> c;
+
+    cout << somefunction(a,b,c) << endl;
+    cout << a << endl;
+    cout << b << endl;
+    cout << c << endl;
 
     return 0;
 }
