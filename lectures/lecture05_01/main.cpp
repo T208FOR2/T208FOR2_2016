@@ -17,7 +17,16 @@ int main()
     return 0;
 }
 
-void rectangle(double w, double h, double& area, double& circumference) {
-    area = w*h;
-    circumference = w+w+h+h;
+bool rectangle(double w, double h, double& area, double& circumference) {
+    if (w < 0 || h < 0) {
+        area = 0;
+        circumference = 0;
+        return false;
+    }
+    else {
+        area = w*h;
+        circumference = w+w+h+h;
+        return true;
+    }
+
 }
