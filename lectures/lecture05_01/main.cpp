@@ -9,10 +9,15 @@ int main()
     double a = 0,c = 0;
     cin >> w >> h;
 
-    rectangle(w,h,a,c);
+    bool calculationssuccessful = rectangle(w,h,a,c);
 
-    cout << "Area: " << a << endl;
-    cout << "Circumference: " << c << endl;
+    if (calculationssuccessful == true) {
+        cout << "Area: " << a << endl;
+        cout << "Circumference: " << c << endl;
+    }
+    else {
+        cout << "Your rectangle is strange...?" << endl;
+    }
 
     return 0;
 }
