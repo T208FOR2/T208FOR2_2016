@@ -12,10 +12,11 @@ int main()
     //cin >> seed;
     initialize_random_generator(seed);
 
+    int max_randomtala = 10;
     int slembitala;
 
     for (int i = 0; i < 10; i++) {
-        slembitala = random_int(100);
+        slembitala = random_int(max_randomtala);
         cout << slembitala << " ";
     }
     cout << endl;
