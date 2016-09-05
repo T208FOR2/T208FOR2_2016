@@ -35,5 +35,6 @@ void initialize_random_generator(int seed) {
 }
 
 int random_int(int max_value) {
+    max_value = max_value * 2;
     return rand() % max_value;
 }
