@@ -16,8 +16,9 @@ int main()
 
     for (int i = 0; i < 10; i++) {
         slembitala = random_int(100);
-        cout << slembitala << endl;
+        cout << slembitala << " ";
     }
+    cout << endl;
 
     return 0;
 }
