@@ -4,7 +4,7 @@
 using namespace std;
 
 void initialize_random_generator(int seed);
-int random_int(int max_value);
+int random_int(int &max_value);
 
 int main()
 {
@@ -15,7 +15,7 @@ int main()
     int max_randomtala = 10;
     int slembitala;
 
-    for (int i = 0; i < 10; i++) {
+    for (int i = 0; i < 20; i++) {
         slembitala = random_int(max_randomtala);
         cout << slembitala << " ";
     }
@@ -34,7 +34,7 @@ void initialize_random_generator(int seed) {
     }
 }
 
-int random_int(int max_value) {
+int random_int(int &max_value) {
     max_value = max_value * 2;
     return rand() % max_value;
 }
