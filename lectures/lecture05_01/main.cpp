@@ -1,35 +1,28 @@
 #include <iostream>
 using namespace std;
 
-bool rectangle(double w, double h, double& area, double& circumference);
+double mean_grade(int a, int b, int c, int d);
+double weighted_mean_grade(int a, int b, int c, int d);
+double min_max_average_grade(int a, int b, int c, int d);
 
 int main()
 {
-    double w,h;
-    double a = 0,c = 0;
-    cin >> w >> h;
+    int a,b,c,d;
+    cin >> a >> b >> c >> d;
 
-    if ( rectangle(w,h,a,c) ) {
-        cout << "Area: " << a << endl;
-        cout << "Circumference: " << c << endl;
-    }
-    else {
-        cout << "Your rectangle is strange...?" << endl;
-    }
+    cout << "Mean:            " << mean_grade(a,b,c,d) << endl;
+    cout << "Weighted Mean:   " << weighted_mean_grade(a,b,c,d) << endl;
+    cout << "Min Max Average: " << min_max_average_grade(a,b,c,d) << endl;
 
     return 0;
 }
 
-bool rectangle(double w, double h, double& area, double& circumference) {
-    if (w < 0 || h < 0) {
-        area = 0;
-        circumference = 0;
-        return false;
-    }
-    else {
-        area = w*h;
-        circumference = w+w+h+h;
-        return true;
-    }
-
+double mean_grade(int a, int b, int c, int d) {
+    return 1.0;
+}
+double weighted_mean_grade(int a, int b, int c, int d) {
+    return 2.0;
+}
+double min_max_average_grade(int a, int b, int c, int d) {
+    return 3.0;
 }
