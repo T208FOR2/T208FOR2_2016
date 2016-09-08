@@ -39,6 +39,7 @@ int main()
         exit(1);
     }
 
+    // Let's read the file we created earlier
     string s;
     double d;
     theinputfile >> s;
