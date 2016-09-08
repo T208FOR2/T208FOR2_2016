@@ -28,7 +28,7 @@ int main()
         sum = sum + tala;
         fjoldi++;
     }
-    theoutputfile << "Medaltal: " << static_cast<double>(sum / fjoldi) << endl;
+    theoutputfile << "Medaltal: " << static_cast<double>(sum) / fjoldi << endl;
 
     theinputfile.close();
     theoutputfile.close();
