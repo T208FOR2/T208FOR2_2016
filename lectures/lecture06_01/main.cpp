@@ -7,6 +7,8 @@ using namespace std;
 int main()
 {
     ifstream theinputfile;
+    ofstream theoutputfile;
+
 //    theinputfile.open("C:\\Users\\notandi\\desktop\\skra.txt");
     theinputfile.open("/Users/Eyjo/Programming/T-208-FOR2/Haust2016/T208FOR2_2016/lectures/lecture06_01/bin/Debug/randomtolur.dat");
 
@@ -23,5 +25,8 @@ int main()
     cout << "Medaltal: " << sum / 10.0 << endl;
 
     theinputfile.close();
+
+
+
     return 0;
 }
