@@ -23,11 +23,12 @@ int main()
     }
 
     // Calculate the average of all the numbers
-    int tala, sum = 0;
+    int tala, sum = 0, fjoldi = 0;
     while(theinputfile >> tala) {
         sum = sum + tala;
+        fjoldi++;
     }
-    theoutputfile << "Medaltal: " << sum / 10.0 << endl;
+    theoutputfile << "Medaltal: " << static_cast<double>(sum / fjoldi) << endl;
 
     theinputfile.close();
     theoutputfile.close();
