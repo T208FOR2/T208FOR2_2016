@@ -11,11 +11,17 @@ int main()
 
 //    theinputfile.open("C:\\Users\\notandi\\desktop\\skra.txt");
     theinputfile.open("/Users/Eyjo/Programming/T-208-FOR2/Haust2016/T208FOR2_2016/lectures/lecture06_01/bin/Debug/randomtolur.dat");
-
     if (theinputfile.fail()) {
         cout << "Can't find the file!" << endl;
         exit(1);
     }
+
+    theoutputfile.open("theoutput.txt");
+    if (theoutputfile.fail()) {
+        cout << "Can't create the file!" << endl;
+        exit(1);
+    }
+
     // Do something clever with the file
     int tala, sum = 0;
     for (int i = 0; i < 10; i++) {
@@ -25,8 +31,7 @@ int main()
     cout << "Medaltal: " << sum / 10.0 << endl;
 
     theinputfile.close();
-
-
+    theoutputfile.close();
 
     return 0;
 }
