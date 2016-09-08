@@ -28,7 +28,7 @@ int main()
         theinputfile >> tala;
         sum = sum + tala;
     }
-    cout << "Medaltal: " << sum / 10.0 << endl;
+    theoutputfile << "Medaltal: " << sum / 10.0 << endl;
 
     theinputfile.close();
     theoutputfile.close();
