@@ -15,7 +15,7 @@ int main()
         exit(1);
     }
     // Do something clever with the file
-    int tala, sum;
+    int tala, sum = 0;
     for (int i = 0; i < 10; i++) {
         theinputfile >> tala;
         sum = sum + tala;
