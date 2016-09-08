@@ -33,5 +33,7 @@ int main()
     theinputfile.close();
     theoutputfile.close();
 
+    theinputfile.open("theoutput.txt");
+
     return 0;
 }
