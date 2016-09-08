@@ -7,7 +7,7 @@ using namespace std;
 int main()
 {
     ifstream theinputfile;
-    theinputfile.open("randomtolur.dat");
+    theinputfile.open("/Users/Eyjo/Programming/T-208-FOR2/Haust2016/T208FOR2_2016/lectures/lecture06_01/bin/Debug/randomtolur.dat");
 
     if (theinputfile.fail()) {
         cout << "Can't find the file!" << endl;
