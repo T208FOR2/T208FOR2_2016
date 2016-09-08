@@ -15,11 +15,12 @@ int main()
         exit(1);
     }
     // Do something clever with the file
-    int tala;
+    int tala, sum;
     for (int i = 0; i < 10; i++) {
         theinputfile >> tala;
-        cout << tala << endl;
+        sum = sum + tala;
     }
+    cout << "Medaltal: " << sum / 10.0 << endl;
 
     theinputfile.close();
     return 0;
