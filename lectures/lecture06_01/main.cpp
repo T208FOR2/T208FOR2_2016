@@ -1,6 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <cstdlib>
+#include <string>
 
 using namespace std;
 
@@ -10,7 +11,8 @@ int main()
     ofstream theoutputfile;
 
 //    theinputfile.open("C:\\Users\\notandi\\desktop\\skra.txt");
-    theinputfile.open("/Users/Eyjo/Programming/T-208-FOR2/Haust2016/T208FOR2_2016/lectures/lecture06_01/bin/Debug/randomtolur.dat");
+    string thefilename = "/Users/Eyjo/Programming/T-208-FOR2/Haust2016/T208FOR2_2016/lectures/lecture06_01/bin/Debug/randomtolur.dat";
+    theinputfile.open( thefilename.c_str() );
     if (theinputfile.fail()) {
         cout << "Can't find the file!" << endl;
         exit(1);
