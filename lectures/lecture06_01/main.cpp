@@ -22,10 +22,9 @@ int main()
         exit(1);
     }
 
-    // Do something clever with the file
+    // Calculate the average of all the numbers
     int tala, sum = 0;
-    for (int i = 0; i < 10; i++) {
-        theinputfile >> tala;
+    while(theinputfile >> tala) {
         sum = sum + tala;
     }
     theoutputfile << "Medaltal: " << sum / 10.0 << endl;
