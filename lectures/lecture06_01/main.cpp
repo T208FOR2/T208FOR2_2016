@@ -34,6 +34,18 @@ int main()
     theoutputfile.close();
 
     theinputfile.open("theoutput.txt");
+    if (theinputfile.fail()) {
+        cout << "Can't find the file!" << endl;
+        exit(1);
+    }
 
+    string s;
+    double d;
+    theinputfile >> s;
+    theinputfile >> d;
+    cout << "The string is: " << s << endl;
+    cout << "and the average is " << d << endl;
+
+    theinputfile.close();
     return 0;
 }
