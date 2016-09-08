@@ -16,7 +16,10 @@ int main()
     }
     // Do something clever with the file
     int tala;
-    theinputfile >> tala;
+    for (int i = 0; i < 10; i++) {
+        theinputfile >> tala;
+        cout << tala << endl;
+    }
 
     theinputfile.close();
     return 0;
