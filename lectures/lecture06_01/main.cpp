@@ -5,6 +5,8 @@
 
 using namespace std;
 
+void openfile(ifstream &thefile, string thefilename);
+
 int main()
 {
     ifstream theinputfile;
@@ -12,11 +14,7 @@ int main()
 
 //    theinputfile.open("C:\\Users\\notandi\\desktop\\skra.txt");
     string thefilename = "/Users/Eyjo/Programming/T-208-FOR2/Haust2016/T208FOR2_2016/lectures/lecture06_01/bin/Debug/randomtolur.dat";
-    theinputfile.open( thefilename.c_str() );
-    if (theinputfile.fail()) {
-        cout << "Can't find the file!" << endl;
-        exit(1);
-    }
+    openfile(theinputfile, thefilename);
 
     theoutputfile.open("theoutput.txt");
     if (theoutputfile.fail()) {
@@ -35,11 +33,7 @@ int main()
     theinputfile.close();
     theoutputfile.close();
 
-    theinputfile.open("theoutput.txt");
-    if (theinputfile.fail()) {
-        cout << "Can't find the file!" << endl;
-        exit(1);
-    }
+    openfile(theinputfile,"theoutput.txt");
 
     // Let's read the file we created earlier
     string s;
@@ -51,4 +45,13 @@ int main()
 
     theinputfile.close();
     return 0;
+}
+
+
+void openfile(ifstream &thefile, string thefilename) {
+    thefile.open( thefilename.c_str() );
+    if (thefile.fail()) {
+        cout << "Can't find the file!" << endl;
+        exit(1);
+    }
 }
