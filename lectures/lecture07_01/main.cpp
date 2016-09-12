@@ -22,12 +22,15 @@ int main()
     cin >> inputnumber;
 
     int minnsti_munur = 0, closest_tala = -1;
+    bool fyrsta_itrun = true;
     while (thefile >> current) {
 
-        if ( abs(inputnumber - current) < minnsti_munur ) {
+        if (( abs(inputnumber - current) < minnsti_munur ) || fyrsta_itrun) {
             minnsti_munur = abs(inputnumber - current);
             closest_tala = current;
+            fyrsta_itrun = false;
         }
+
     }
 
     cout << closest_tala << endl;
