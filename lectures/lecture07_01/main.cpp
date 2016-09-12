@@ -2,6 +2,7 @@
 #include <fstream>  // Files!
 #include <cstdlib>  // exit...
 #include <string>
+#include <cmath>
 using namespace std;
 
 int main()
@@ -23,6 +24,7 @@ int main()
     int minnsti_munur = 0, closest_tala = -1;
     while (thefile >> current) {
 
+        if ( abs() )
 
     }
 
