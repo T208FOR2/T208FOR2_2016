@@ -2,14 +2,16 @@
 
 using namespace std;
 
+const int FJOLDI = 100;
+
 int main()
 {
-    int tolur[10];
-    for (int i = 0; i < 10; i++) {
+    int tolur[FJOLDI];
+    for (int i = 0; i < FJOLDI; i++) {
         tolur[i] = i*i;
     }
 
-    for (int i = 0; i < 10; i++) {
+    for (int i = 0; i < FJOLDI; i++) {
         cout << tolur[i] << endl;
     }
 
