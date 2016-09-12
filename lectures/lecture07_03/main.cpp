@@ -15,5 +15,7 @@ int main()
         cout << tolur[i] << endl;
     }
 
+    cout << tolur[1000] << endl;
+
     return 0;
 }
