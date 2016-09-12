@@ -17,6 +17,8 @@ int main()
         cout << "Can't open the file: " << thefilename << endl;
         exit(1);
     }
+    cout << "and a number: ";
+    cin >> inputnumber;
 
     while (thefile >> current) {
         cout << current << ", ";
