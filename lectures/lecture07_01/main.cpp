@@ -12,8 +12,12 @@ int main()
     cin >> thefilename;
 
     thefile.open(thefilename.c_str());
-
-
+    if (thefile.fail()) {
+        cout << "Can't open the file: " << thefilename << endl;
+        exit(1);
+    }
+    // do something clever...
+    thefile.close();
     return 0;
 }
 
