@@ -30,7 +30,6 @@ int main()
             closest_tala = current;
             fyrsta_itrun = false;
         }
-
     }
 
     cout << closest_tala << endl;
