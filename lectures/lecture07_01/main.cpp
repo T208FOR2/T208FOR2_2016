@@ -20,10 +20,12 @@ int main()
     cout << "and a number: ";
     cin >> inputnumber;
 
+    int minnsti_munur = 0, closest_tala = -1;
     while (thefile >> current) {
-        cout << current << ", ";
+
+
     }
-    cout << endl;
+
 
     thefile.close();
     return 0;
