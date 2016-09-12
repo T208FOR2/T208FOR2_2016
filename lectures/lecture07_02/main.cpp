@@ -11,6 +11,7 @@ int main()
 
     cout << "Write something: ";
     cin.get(takn);
+    cin.putback(takn);
 
     if (isdigit(takn))
     {
