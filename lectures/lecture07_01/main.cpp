@@ -24,10 +24,13 @@ int main()
     int minnsti_munur = 0, closest_tala = -1;
     while (thefile >> current) {
 
-        if ( abs() )
-
+        if ( abs(inputnumber - current) < minnsti_munur ) {
+            minnsti_munur = abs(inputnumber - current);
+            closest_tala = current;
+        }
     }
 
+    cout << closest_tala << endl;
 
     thefile.close();
     return 0;
