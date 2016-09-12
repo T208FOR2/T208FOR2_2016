@@ -8,6 +8,7 @@ int main()
 {
     ifstream thefile;
     string thefilename;
+    int inputnumber, current;
     cout << "Write the filename: ";
     cin >> thefilename;
 
@@ -16,7 +17,12 @@ int main()
         cout << "Can't open the file: " << thefilename << endl;
         exit(1);
     }
-    // do something clever...
+
+    while (thefile >> current) {
+        cout << current << ", ";
+    }
+    cout << endl;
+
     thefile.close();
     return 0;
 }
