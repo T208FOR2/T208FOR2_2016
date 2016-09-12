@@ -11,7 +11,7 @@ int main()
     cin >> tala;
     cout << "The number is " << tala << endl;
     cin >> texti;
-    cout << "The text is " << texti << endl;
+    cout << "The text is \"" << texti << "\"" << endl;
 
 
 
