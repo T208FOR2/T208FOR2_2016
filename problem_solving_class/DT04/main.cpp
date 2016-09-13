@@ -218,7 +218,7 @@ int minValue(ifstream &fin)
     {
         if(number < minVal)
         {
-            // Uppfærum minCal ef við finnum minni tölu
+            // Uppfærum minVal ef við finnum minni tölu
             minVal = number;
         }
     }
