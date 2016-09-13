@@ -26,7 +26,7 @@ int main()
     // Read numbers from file
     ifstream fin;
     openFileToRead(fin, "numbers.txt");
-//
+
     // While not at end of file, continue
 //    while(fin.eof() != true)
 //    {
@@ -38,12 +38,41 @@ int main()
 //        }
 //    }
 
-    int n;
+    int n, sum = 0, min, max;
     // While reading number from file works, continue
+    bool firstTime = true;
+
+    fin >> n;
+    min = n;
+    max = n;
+    sum += n;
+
     while(fin >> n)
     {
-        cout << n << endl;
+        sum += n;
     }
+    cout << sum << endl;
+
+    // Leysi í tveimur skrefum; þarf að loka og opna straum
+    // til að færa mig í byrjun á skránni
+    fin.close();
+    openFileToRead(fin, "numbers.txt");
+
+    while(fin >> n)
+    {
+        if(n < min)
+        {
+            min = n;
+        }
+        if(n > max)
+        {
+            max = n;
+        }
+    }
+
+    cout << "min: " << min << endl;
+    cout << "max: " << max << endl;
+    fin.close();
 
     return 0;
 }
