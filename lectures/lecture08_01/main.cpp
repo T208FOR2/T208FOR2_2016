@@ -13,6 +13,13 @@ int main()
 
     while (inntak != "exit") {
         cin >> inntak;
+        ord[n] = inntak;
+        n = n + 1;
+    }
+
+    cout << "---------------";
+
+    for (int i = n-1; i >= 0; i--) {
     }
 
 
