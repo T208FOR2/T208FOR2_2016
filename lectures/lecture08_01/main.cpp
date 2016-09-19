@@ -20,6 +20,11 @@ int main()
     cout << "---------------";
 
     for (int i = n-1; i >= 0; i--) {
+        cout << ord[i] << endl;
+    }
+
+    for (int i = 0; i < n; i++) {
+        cout << ord[n - 1 - i] << endl;
     }
 
 
