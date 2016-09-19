@@ -23,6 +23,8 @@ int main()
         cout << ord[i] << endl;
     }
 
+    cout << "---------------";
+
     for (int i = 0; i < n; i++) {
         cout << ord[n - 1 - i] << endl;
     }
