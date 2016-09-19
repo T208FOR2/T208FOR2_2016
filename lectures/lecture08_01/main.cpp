@@ -20,7 +20,7 @@ int main()
     cout << "what word are you searching for: ";
     cin >> leitarord;
 
-    cout << "---------------";
+    cout << "---------------" << endl;
 
     for (int i = 0; i < n; i++) {
         if (leitarord == ord[i]) {
