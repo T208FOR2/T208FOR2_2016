@@ -29,6 +29,12 @@ int main()
         }
     }
 
+    if (index == -1) {
+        cout << "The word " << leitarord << " was not found." << endl;
+    }
+    else {
+        cout << "The word " << leitarord << " is number " << index << endl;
+    }
 
 
     return 0;
