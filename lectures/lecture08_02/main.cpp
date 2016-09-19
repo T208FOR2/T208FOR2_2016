@@ -2,18 +2,20 @@
 
 using namespace std;
 
-void upphafsstillabord(char board[][3], int n);
+const int N = 3;
+
+void upphafsstillabord(char board[][N]);
 
 int main()
 {
-    char mylla[3][3];
-    upphafsstillabord(mylla, 3);
+    char mylla[N][N];
+    upphafsstillabord(mylla);
     return 0;
 }
 
-void upphafsstillabord(char board[][3], int n) {
-    for (int i = 0; i < n; i++) {
-        for (int j = 0; j < 3; j++) {
+void upphafsstillabord(char board[][N]) {
+    for (int i = 0; i < N; i++) {
+        for (int j = 0; j < N; j++) {
             board[i][j] = '_';
         }
     }
