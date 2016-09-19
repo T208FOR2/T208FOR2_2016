@@ -7,7 +7,7 @@ const int MAXLENGD = 1000;
 
 int main()
 {
-    string inntak = "";
+    string inntak = "", leitarord;
     string ord[MAXLENGD];
     int n = 0;
 
@@ -16,6 +16,9 @@ int main()
         ord[n] = inntak;
         n = n + 1;
     }
+
+    cout << "what word are you searching for: ";
+    cin >> leitarord;
 
     cout << "---------------";
 
