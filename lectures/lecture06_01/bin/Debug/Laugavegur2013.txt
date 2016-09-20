@@ -1,0 +1,278 @@
+Laugavegurinn 2013
+Landmannalaugar - Husadalur - 13. juli 2013
+
+
+Heildarurslit
+
+   1    4:48:08   Orvar Steingrimsson                 1979   30 - 39 ara      IS200 Team Efla
+   2    4:52:25   Gudni Pall Palsson                  1987   18 - 29 ara      IS870 Team Efla
+   3    5:14:24   Ryan Paavola                        1984   18 - 29 ara      USA
+   4    5:18:43   Hendrik Sporing                     1990   18 - 29 ara      GER
+   5    5:18:49   Birgir Saevarsson                   1972   40 - 49 ara      IS107 IR- somamenn
+   6    5:19:17   Sigurdur Thorarinsson               1967   40 - 49 ara      IS109 IR- somamenn
+   7    5:19:58   Sigurdur Hrafn Kiernan              1969   40 - 49 ara      IS101
+   8    5:20:19   Jose Israel Fernandez Caceres       1967   40 - 49 ara      ESP
+   9    5:28:05   Gina Lucrezi                        1983   30 - 39 ara      USA Team USA
+  10    5:31:12   Solvi Oddsson                       1972   40 - 49 ara      IS110 Team Efla
+  11    5:35:37   Reimar Marteinsson                  1980   30 - 39 ara      IS530 Naglarnir
+  12    5:36:15   Radu Milea                          1988   18 - 29 ara      ROU
+  13    5:39:56   Eivind Furuseth                     1975   30 - 39 ara      NOR
+  14    5:43:13   Viktor Jens Vigfusson               1967   40 - 49 ara      IS107
+  15    5:43:50   Jean-Michel Nikles                  1964   40 - 49 ara      CHE
+  16    5:46:20   Frank Tschope                       1968   40 - 49 ara      CHE
+  17    5:46:32   Nico Verrier                        1973   40 - 49 ara      CAN
+  18    5:46:57   Robert Shaw                         1969   40 - 49 ara      GBR
+  19    5:47:33   Elisabet Margeirsdottir             1985   18 - 29 ara      IS105
+  20    5:50:35   Birgir Mar Vigfusson                1982   30 - 39 ara      IS780
+  21    5:50:53   Arnar Benjamin Ingolfsson           1980   30 - 39 ara      IS110
+  22    5:51:02   Birkir Mar Kristinsson              1975   30 - 39 ara      IS110
+  23    5:52:33   Stefan Gislason                     1957   50 - 59 ara      IS310
+  24    5:52:35   Bjorn Lindberg                      1976   30 - 39 ara      NOR
+  25    5:55:16   Halldor Thorkelsson                 1971   40 - 49 ara      IS201
+  26    6:02:27   Benoit Branger                      1984   18 - 29 ara      FRA
+  27    6:02:33   Aegir Mar Karason                   1964   40 - 49 ara      IS220
+  28    6:04:13   Gudmundur Love                      1967   40 - 49 ara      IS107
+  29    6:04:25   Bjarni Armannsson                   1968   40 - 49 ara      IS170
+  30    6:09:08   Johann Otto Wathne                  1976   30 - 39 ara      IS Forsetinn
+  31    6:09:09   Erlendur Stefansson                 1975   30 - 39 ara      IS220 Forsetinn
+  32    6:10:17   Hallgrimur Vignir Jonsson           1969   40 - 49 ara      IS200 Forsetinn
+  33    6:10:22   Gauti Hoskuldsson                   1961   50 - 59 ara      IS108
+  34    6:10:49   Jonathan Gilchrist                  1963   50 - 59 ara      HKG
+  35    6:11:50   Birkir Thor Stefansson              1968   40 - 49 ara      IS510
+  36    6:13:19   Mark King                           1963   50 - 59 ara      GBR
+  37    6:13:38   Erik Kragsig                        1985   18 - 29 ara      DEN
+  38    6:13:38   Rasmus Holm Andersen                1990   18 - 29 ara      DEN
+  39    6:16:18   Thorleifur Thorleifsson             1979   30 - 39 ara      IS110 Arbaejarskokk
+  40    6:16:25   Palmar Viggosson                    1965   40 - 49 ara      IS210
+  41    6:16:26   Hafdis Gudrun Hilmarsdottir         1974   30 - 39 ara      IS105 Laugavegshopur SPS og hlaup.is
+  42    6:16:32   Jonina Gunnarsdottir                1975   30 - 39 ara      IS108
+  43    6:16:43   Marie Legeais                       1976   30 - 39 ara      FRA Runisland
+  44    6:16:46   Derk Prinsen                        1969   40 - 49 ara      HOL
+  45    6:16:49   Gregoire Bonin                      1976   30 - 39 ara      FRA Runisland
+  46    6:16:49   Thomas Jansson                      1971   40 - 49 ara      SWE
+  47    6:16:57   Ernesto Silva                       1979   30 - 39 ara      SWE
+  48    6:18:18   Klemens Saemundsson                 1963   50 - 59 ara      IS230
+  49    6:18:37   Hjortur Lindal Hauksson             1979   30 - 39 ara      IS112
+  50    6:19:16   Thordis Jona Hrafnkelsdottir        1965   40 - 49 ara      IS220 FH-ingar
+  51    6:19:43   Kamil Lukasz Kluczynski             1986   18 - 29 ara      POL
+  52    6:20:34   Fjola Drofn Gudmundsdottir          1984   18 - 29 ara      IS600
+  53    6:20:35   Gustaf Petur Jonsson                1969   40 - 49 ara      IS110
+  54    6:22:05   Jon Gisli Gudlaugsson               1967   40 - 49 ara      IS810 Hamrarnir
+  55    6:24:52   Kolbeinn Hognason                   1964   40 - 49 ara      IS270
+  56    6:25:56   Hafsteinn Gudmundsson               1975   30 - 39 ara      IS170 Dallas
+  57    6:26:05   Jon Vidar Baldursson                1972   40 - 49 ara      IS105
+  58    6:26:35   Sigvaldi Thordur Kaldalons          1974   30 - 39 ara      IS113
+  59    6:27:08   Vidar Einarsson                     1972   40 - 49 ara      IS210
+  60    6:28:07   Bjarni Stefan Gunnarsson            1979   30 - 39 ara      IS210
+  61    6:28:09   Olafur Bjornsson                    1979   30 - 39 ara      IS740 Valur skokk
+  62    6:28:12   Stefan Reyr Olafsson                1979   30 - 39 ara      IS800
+  63    6:28:17   Jon Hinrik Hoskuldsson              1991   18 - 29 ara      IS109 Jokull?!
+  64    6:28:28   Timothy Collins                     1983   30 - 39 ara      CAN
+  65    6:29:54   Sigrun Hallgrimsdottir              1975   30 - 39 ara      IS170
+  66    6:32:54   Arnor Gunnarsson                    1978   30 - 39 ara      IS201
+  67    6:33:20   Fjolvar Darri Rafnsson              1973   40 - 49 ara      IS
+  68    6:33:44   Gudni Gislason                      1957   50 - 59 ara      IS221 FH-ingar
+  69    6:34:12   Petur Haukur Helgason               1957   50 - 59 ara      IS110 Arbaejarskokk
+  70    6:34:33   Johannes Baldursson                 1971   40 - 49 ara      IS107
+  71    6:34:56   Fridbjorn Holm Olafsson             1966   40 - 49 ara      IS110
+  72    6:34:57   Salamin Michel                      1963   50 - 59 ara      CHE
+  73    6:35:02   Thora Johanna Hjaltadottir          1963   50 - 59 ara      IS110
+  74    6:35:03   Halldor Thorleifs Stefansson        1975   30 - 39 ara      IS ReST
+  75    6:35:29   Sigurdur Gudni Isolfsson            1968   40 - 49 ara      IS220 FH-ingar
+  76    6:35:44   Inge Seiding                        1976   30 - 39 ara      GRL
+  77    6:35:51   Teit Groth                          1955   50 - 59 ara      GRL
+  78    6:36:48   Grandgirard                         1974   30 - 39 ara      CHE
+  79    6:37:03   Arnar Geir Runarsson                1983   30 - 39 ara      IS110 Team Efla
+  80    6:37:26   Asmundur Gislason                   1979   30 - 39 ara      IS
+  81    6:37:36   Sondy Haldursdottir Johansen        1964   40 - 49 ara      IS110 Arbaejarskokk
+  82    6:37:36   Haukur Logi Michelsen               1958   50 - 59 ara      IS810 Hamrarnir
+  83    6:37:36   Gunnar Sveinsson                    1968   40 - 49 ara      IS530 Naglarnir
+  84    6:37:38   Daniel Reynisson                    1985   18 - 29 ara      IS845 Hlaupa- og lifstilshopurinn Bj
+  85    6:38:00   David Black                         1965   40 - 49 ara      GBR
+  86    6:38:13   Rune Falch Yates                    1980   30 - 39 ara      DEN
+  87    6:39:14   Wim Walraevens                      1972   40 - 49 ara      BEL
+  88    6:41:26   Haraldur Haraldsson                 1967   40 - 49 ara      IS220 Valur skokk
+  89    6:41:58   Arnar Mar Arnason                   1975   30 - 39 ara      IS220
+  90    6:42:50   Timo Rapp                           1981   30 - 39 ara      GER
+  91    6:45:31   Jon Grimsson                        1959   50 - 59 ara      IS109 IR- somamenn
+  92    6:45:45   Orn Thor Halldorsson                1965   40 - 49 ara      IS107
+  93    6:45:51   Sveinbjorn Sigurdsson               1965   40 - 49 ara      IS220 FH Jaxlarnir
+  94    6:45:58   Sigurlin Birgisdottir               1972   40 - 49 ara      IS200 IR skokkstelpur II
+  95    6:46:15   Gunnar Gunnarsson                   1972   40 - 49 ara      IS109
+  96    6:46:15   Bjorn Jakob Bjornsson               1974   30 - 39 ara      IS200
+  97    6:46:40   Gisli Vilberg Hjaltason             1972   40 - 49 ara      IS105 Valur skokk
+  98    6:47:58   Bjarni Gudmundur Jonsson            1977   30 - 39 ara      IS110
+  99    6:48:57   Sverrir G Ingibjartsson             1965   40 - 49 ara      IS800 Naglarnir
+ 100    6:49:04   Sigridur Gisladottir                1968   40 - 49 ara      IS200 IR skokkstelpur I
+ 101    6:50:14   Anna Kristin Hoskuldsdottir         1986   18 - 29 ara      IS109 Jokull?!
+ 102    6:50:31   Karl Pedersen                       1978   30 - 39 ara      DEN
+ 103    6:50:47   Gudjon Orn Bjornsson                1980   30 - 39 ara      IS110
+ 104    6:51:27   Runar Sveinsson                     1981   30 - 39 ara      IS201
+ 105    6:52:30   Helgi Kristinn Marvinsson           1954   50 - 59 ara      IS800
+ 106    6:52:59   Jorrit Van der Meulen               1965   40 - 49 ara      LUX ReST
+ 107    6:53:31   Bryndis Reynisdottir                1983   30 - 39 ara      IS765 BC Hlauparar
+ 108    6:54:22   Viktor Olason                       1964   40 - 49 ara      IS221
+ 109    6:54:29   Unnur Arnadottir                    1966   40 - 49 ara      IS104 IR skokkstelpur I
+ 110    6:56:09   Aslak Sira Myhre                    1973   40 - 49 ara      NOR Kaninbyen
+ 111    6:56:21   Robert Marshall                     1971   40 - 49 ara      IS107
+ 112    6:56:58   Sarah Seeliger                      1979   30 - 39 ara      IS801
+ 113    6:57:20   Bjork Steindorsdottir               1969   40 - 49 ara      IS800
+ 114    6:57:51   Osp Johannsdottir                   1986   18 - 29 ara      IS845
+ 115    6:58:14   Valdimar Halldorsson                1973   40 - 49 ara      IS640
+ 116    6:58:24   Sigrun Halldora Einarsdottir        1985   18 - 29 ara      IS110 BC Hlauparar
+ 117    7:00:03   Penny Comins                        1980   30 - 39 ara      GBR
+ 118    7:00:11   Tim Kerr                            1972   40 - 49 ara      GBR
+ 119    7:00:50   Gudmundur Pall Magnusson            1975   30 - 39 ara      IS270
+ 120    7:01:14   Valdimar Hafsteinsson               1966   40 - 49 ara      IS810 Hamrarnir
+ 121    7:01:21   Herman Ebbekink                     1955   50 - 59 ara      HOL
+ 122    7:01:24   Gardar Thorsteinn Gudgeirsson       1974   30 - 39 ara      IS107 Valur skokk
+ 123    7:01:44   Arnor Gauti Hauksson                1982   30 - 39 ara      IS108
+ 124    7:01:55   Lisa Moritz Kirsch                  1957   50 - 59 ara      USA
+ 125    7:02:26   Daniel Payne                        1983   30 - 39 ara      USA
+ 126    7:02:51   Thorarinn Oli Olafsson              1977   30 - 39 ara      IS107 Forsetinn
+ 127    7:03:45   Kristjan Olafur Gudnason            1965   40 - 49 ara      IS220 FH Jaxlarnir
+ 128    7:04:15   Stefan Vidar Sigtryggsson           1970   40 - 49 ara      IS200
+ 129    7:06:04   Ingthor Gudni Juliusson             1975   30 - 39 ara      IS101
+ 130    7:06:50   Joney Kristjansdottir               1965   40 - 49 ara      IS220
+ 131    7:07:08   Anna Sigrun Bjornsdottir            1954   50 - 59 ara      IS210 IR skokkstelpur I
+ 132    7:07:17   Leon Sinclair Adkins                1980   30 - 39 ara      AUS
+ 133    7:07:18   Nick Saunders                       1980   30 - 39 ara      GBR
+ 134    7:07:35   Elvis Joakit                        1979   30 - 39 ara      EST
+ 135    7:07:42   Antti Näreaho                       1967   40 - 49 ara      FIN
+ 136    7:08:36   Sigrun Kristjansdottir              1968   40 - 49 ara      IS810 Hamrarnir
+ 137    7:08:56   Jon M. Andreasen Finnbogason        1989   18 - 29 ara      IS801 Team Mastunga
+ 138    7:08:57   Marino Fannar Gardarsson            1979   30 - 39 ara      IS801 Team Mastunga
+ 139    7:08:59   Bardur Arnason                      1965   40 - 49 ara      IS800
+ 140    7:09:08   Osk Gunnarsdottir                   1970   40 - 49 ara      IS221 FH Jaxlarnir
+ 141    7:09:17   Steven Gregg                        1986   18 - 29 ara      GBR
+ 142    7:09:30   Hordur Hauksson                     1986   18 - 29 ara      IS110 Jokull?!
+ 143    7:12:09   Petur Valdimarsson                  1959   50 - 59 ara      IS201
+ 144    7:13:08   Fridrik Fridriksson                 1972   40 - 49 ara      IS101
+ 145    7:13:23   Anne Bourgeois Ross                 1957   50 - 59 ara      CAN
+ 146    7:17:16   Veselin Kuntchev                    1972   40 - 49 ara      BGR
+ 147    7:17:41   Bjarki Heidar Beck Brynjarsson      1972   40 - 49 ara      IS270 IR- somamenn
+ 148    7:17:41   Thordur Adalsteinsson               1973   40 - 49 ara      IS200 BC Hlauparar
+ 149    7:17:54   Reynir Gudmundsson                  1960   50 - 59 ara      IS845 Hlaupa- og lifstilshopurinn Bj
+ 150    7:18:07   Geir Gunnar Markusson               1975   30 - 39 ara      IS109
+ 151    7:19:41   Steingerdur Hreinsdottir            1970   40 - 49 ara      IS800 Hlaupa- og lifstilshopurinn Bj
+ 152    7:20:56   Andrea Torng                        1986   18 - 29 ara      USA
+ 153    7:21:53   Thomas Steinicke                    1960   50 - 59 ara      GER
+ 154    7:23:16   David Stefan Gudmundsson            1975   30 - 39 ara      IS109
+ 155    7:23:16   Jennifer Steward                    1965   40 - 49 ara      GBR
+ 156    7:24:02   Sindri Gunnarsson                   1964   40 - 49 ara      IS107
+ 157    7:25:11   Borgthor Gretarsson                 1977   30 - 39 ara      IS
+ 158    7:25:14   Joseph John Hammond                 1983   30 - 39 ara      USA
+ 159    7:25:24   Maria Maronsdottir                  1977   30 - 39 ara      IS800
+ 160    7:25:35   Hoskuldur Ari Hauksson              1969   40 - 49 ara      CHE
+ 161    7:26:29   Ian Marks                           1983   30 - 39 ara      USA
+ 162    7:26:29   Baldur Tumi Baldursson              1959   50 - 59 ara      IS
+ 163    7:26:49   John Walsh                          1956   50 - 59 ara      USA
+ 164    7:27:20   Petur Ingi Frantzson                1955   50 - 59 ara      IS104 Naglarnir
+ 165    7:28:42   Petur Hannesson                     1970   40 - 49 ara      IS270 BC Hlauparar
+ 166    7:30:30   Gudrun Gudmundsdottir               1980   30 - 39 ara      IS170
+ 167    7:31:32   David Edward Dudek                  1967   40 - 49 ara      HOL Mad Drunken Hashers
+ 168    7:33:11   Python Nikles                       1961   50 - 59 ara      CHE
+ 169    7:33:13   Stephanie Bales                     1981   30 - 39 ara      CAN
+ 170    7:33:24   Lothar Simon                        1967   40 - 49 ara      GER
+ 171    7:33:28   Claudia Wehnert                     1979   30 - 39 ara      GER
+ 172    7:33:39   Håkon Alexander Fosmo               1983   30 - 39 ara      NOR
+ 173    7:33:44   John H Powell                       1963   50 - 59 ara      USA ReST
+ 174    7:34:37   Ragnar Orn Egilsson                 1972   40 - 49 ara      IS112
+ 175    7:34:43   David Claffey                       1968   40 - 49 ara      USA
+ 176    7:35:43   Tryggvi Ingason                     1983   30 - 39 ara      IS
+ 177    7:35:46   Floris Janse De Jonge               1968   40 - 49 ara      HOL
+ 178    7:36:25   Stefan Bragi Bjarnason              1964   40 - 49 ara      IS107
+ 179    7:38:15   Henk Weijerstrass                   1961   50 - 59 ara      HOL
+ 180    7:38:32   Burke Kaiser                        1963   50 - 59 ara      USA
+ 181    7:39:23   Astvaldur Hjartarson                1989   18 - 29 ara      IS109 Jokull?!
+ 182    7:40:35   Karl Poetzl                         1974   30 - 39 ara      USA
+ 183    7:41:28   Gerda Bjorg Hafsteinsdottir         1974   30 - 39 ara      IS270 IR skokkstelpur II
+ 184    7:41:28   Felix Gunnar Sigurdsson             1963   50 - 59 ara      IS110 IR- somamenn
+ 185    7:41:50   Brian Metzler                       1969   40 - 49 ara      USA Team USA
+ 186    7:42:15   Will Barnwell                       1976   30 - 39 ara      USA
+ 187    7:42:29   Gudridur Elisa Johannsdottir        1972   40 - 49 ara      IS
+ 188    7:43:19   Birna Gudmundsdottir                1966   40 - 49 ara      IS108
+ 189    7:45:51   Giuliano Jellici                    1942   70 ara og e      ITA
+ 190    7:45:52   Matthias Behrend                    1968   40 - 49 ara      GER
+ 191    7:47:01   Hilda Allansdottir Shwaiki          1972   40 - 49 ara      IS270
+ 192    7:47:37   Wojciech Piatek                     1986   18 - 29 ara      POL
+ 193    7:47:49   Gudrun Asta Arnadottir              1975   30 - 39 ara      IS220
+ 194    7:47:49   Diana Harpa Rikardsdottir           1972   40 - 49 ara      IS221
+ 195    7:48:12   Sveinn Gudmundsson                  1963   50 - 59 ara      IS
+ 196    7:48:13   Jan Sisson                          1973   40 - 49 ara      GBR
+ 197    7:49:12   Phillip Vaughn Moritz               1947   60 - 69 ara      USA
+ 198    7:49:36   Ole Arild Fosmo                     1955   50 - 59 ara      NOR
+ 199    7:50:59   Harpa Vidisdottir                   1970   40 - 49 ara      IS200 Hlaupahopur Stjornunnar
+ 200    7:53:52   Sebastien Tranchand                 1987   18 - 29 ara      FRA
+ 201    7:54:04   Gunnar Thor Moller                  1973   40 - 49 ara      IS108
+ 202    7:54:26   Dawn Walsh                          1961   50 - 59 ara      USA
+ 203    7:54:26   Katharine T Coghill                 1961   50 - 59 ara      USA
+ 204    7:55:14   Gunnar Vidar Bjarnason              1961   50 - 59 ara      IS108
+ 205    7:56:41   Elizabeth Bragason                  1971   40 - 49 ara      FRA
+ 206    7:57:44   Juliana Jonsdottir                  1979   30 - 39 ara      IS225
+ 207    7:59:53   Runar Thorstensen                   1972   40 - 49 ara      NOR
+ 208    8:00:07   Karl Vidar Petursson                1971   40 - 49 ara      IS112
+ 209    8:00:07   Thorunn Bjork Gudlaugsdottir        1974   30 - 39 ara      IS111
+ 210    8:00:27   Sigrun Lina Sigurjonsdottir         1974   30 - 39 ara      IS111 Hlaupahopur Stjornunnar
+ 211    8:00:55   Bryndis Sigurdardottir              1970   40 - 49 ara      IS200 Hlaupahopur Stjornunnar
+ 212    8:00:56   Gunnar Stefan Ingason               1969   40 - 49 ara      IS210 Hlaupahopur Stjornunnar
+ 213    8:02:26   Thordur Geir Thorsteinsson          1969   40 - 49 ara      IS105
+ 214    8:02:29   Rannveig Hafberg                    1966   40 - 49 ara      IS220
+ 215    8:03:02   Dietrich Klaassen                   1967   40 - 49 ara      GER
+ 216    8:03:14   Margret Sverrisdottir               1965   40 - 49 ara      IS220
+ 217    8:04:27   Ingunn Agnete Ytrehus               1950   60 og eldri      NOR
+ 218    8:04:47   Droplaug Nanna Magnusdottir         1972   40 - 49 ara      IS270
+ 219    8:04:47   Sigurlaug Maria Jonsdottir          1975   30 - 39 ara      IS270
+ 220    8:05:29   Hannes Alfred Hannesson             1963   50 - 59 ara      IS170
+ 221    8:06:01   Kevin M. Omilusik                   1964   40 - 49 ara      USA
+ 222    8:07:36   Audbjorg Olafsdottir                1979   30 - 39 ara      IS801
+ 223    8:09:12   Theresa Jean Ford                   1965   40 - 49 ara      USA
+ 224    8:09:40   Lilja Margret Olsen                 1981   30 - 39 ara      IS210
+ 225    8:10:14   Hrannar Orn Johannsson              1980   30 - 39 ara      IS200
+ 226    8:12:25   Karen Bjarnhedinsdottir             1970   40 - 49 ara      IS201 IR skokkstelpur II
+ 227    8:12:35   Oddur Ingi Ingason                  1963   50 - 59 ara      IS220 Hlaupahopur Stjornunnar
+ 228    8:17:32   Nicole Ronnspiea                    1975   30 - 39 ara      GER
+ 229    8:18:55   Zdenek Zikan                        1984   18 - 29 ara      NOR Mad Drunken Hashers
+ 230    8:19:15   Kristrun Lilja Juliusdottir         1980   30 - 39 ara      IS108
+ 231    8:21:55   Sigurdur Thor Sigurdsson            1964   40 - 49 ara      IS101 BC Hlauparar
+ 232    8:23:01   Hinrik Palsson                      1973   40 - 49 ara      IS105
+ 233    8:23:31   Patrick C Cartwright                1957   50 - 59 ara      USA
+ 234    8:25:24   Allison Pattillo                    1970   40 - 49 ara      USA Team USA
+ 235    8:25:52   Laura McCrain                       1979   30 - 39 ara      USA
+ 236    8:26:04   Hoskuldur Kristvinsson              1949   60 - 69 ara      IS109 Jokull?!
+ 237    8:26:45   Charles Clarke Browne               1967   40 - 49 ara      GBR
+ 238    8:28:23   Iulian Ceia                         1969   40 - 49 ara      CPV
+ 239    8:29:51   Steven Earl                         1972   40 - 49 ara      USA
+ 240    8:29:54   Ragnar A Finnsson                   1947   60 - 69 ara      IS200
+ 241    8:30:57   Borkur Brynjarsson                  1972   40 - 49 ara      IS825
+ 242    8:32:36   Blake Ward                          1961   50 - 59 ara      USA
+ 243    8:33:43   Frans Leijtens                      1976   30 - 39 ara      HOL
+ 244    8:34:13   Bernhardur Pall Gudmundsson         1957   50 - 59 ara      IS
+ 245    8:34:26   Paul Connor                         1963   50 - 59 ara      CAN
+ 246    8:39:19   Kristofer Kibbey                    1982   30 - 39 ara      USA
+ 247    8:40:05   Sigrun Hjartardottir                1976   30 - 39 ara      IS
+ 248    8:43:58   Denis Smyslov                       1967   40 - 49 ara      RUS
+ 249    8:44:00   Meunier Steve                       1973   40 - 49 ara      FRA
+ 250    8:47:23   Frans Evenblij                      1958   50 - 59 ara      HOL
+ 251    8:49:22   Hildur Kristmundsdottir             1965   40 - 49 ara      IS225
+ 252    8:50:31   Marianna Finnbogadottir             1982   30 - 39 ara      IS210
+ 253    8:52:06   Susanna Ernst Fridriksdottir        1971   40 - 49 ara      IS101
+ 254    8:54:12   Nicole Paine                        1980   30 - 39 ara      GBR
+ 255    8:56:14   Astros Signyjardottir               1986   18 - 29 ara      IS210
+ 256    8:56:29   Karin Avila                         1972   40 - 49 ara      USA
+ 257    8:58:05   Elvar Vilhjalmsson                  1973   40 - 49 ara      IS110
+ 258    8:58:17   Daniel Thorstensen                  1989   18 - 29 ara      IS109
+ 259    8:59:53   Severine Bonin                      1975   30 - 39 ara      FRA Runisland
+ 260    9:02:23   Eric Jost                           1967   40 - 49 ara      HOL Mad Drunken Hashers
+ 261    9:09:13   Marie-Louise Ek                     1961   50 - 59 ara      SWE
+ 262    9:09:32   Deborah S Farrell                   1956   50 - 59 ara      USA
+ 263    9:14:13   Audbjorg Agnes Gunnarsdottir        1976   30 - 39 ara      IS200
+ 264    9:14:13   Hildur Bjork Gudmundsdottir         1972   40 - 49 ara      IS225
+ 265    9:16:52   Anders Ek                           1961   50 - 59 ara      SWE
+ 266    9:18:43   Salvatore Puglia                    1961   50 - 59 ara      RSA
+ 267    9:23:07   John Stelling                       1963   50 - 59 ara      USA
+ 268    9:24:49   Jillian Scaife                      1981   30 - 39 ara      USA
+ 269    9:24:49   Emily Kroshus                       1983   30 - 39 ara      USA
+ 270    9:28:15   Sjaak Schipper                      1948   60 - 69 ara      HOL
+ 271    9:47:52   Gottskalk Fridgeirsson              1954   50 - 59 ara      IS101
+ 272    9:52:16   Gudbjorg A. Finnbogadottir          1991   18 - 29 ara      IS801 Team Mastunga
