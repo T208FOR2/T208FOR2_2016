@@ -2,7 +2,7 @@
 
 using namespace std;
 
-const int N = 3;
+const int N = 8;
 
 void upphafsstillabord(char board[][N]);
 
