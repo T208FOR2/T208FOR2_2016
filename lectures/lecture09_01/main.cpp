@@ -32,6 +32,21 @@ int main()
     return 0;
 }
 
+void insertionSortwithShift(int teljari[], string words[], int length) {
+  int i, j, tmp;
+  string tmp_word;
+
+  for (i = 1; i < length; i++) {
+    tmp = teljari[i];
+    j = i;
+    while (j > 0 && teljari[j - 1] > tmp) {
+      teljari[j] = teljari[j - 1];
+      j--;
+    }
+    teljari[j] = tmp;
+  }
+}
+
 void read_unique_words(ifstream &infile, string uniquewords[], int wordcount[], int &fjoldi_unique_words) {
     string s;
     while (infile >> s) {
