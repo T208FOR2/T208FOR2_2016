@@ -10,8 +10,8 @@ void open_file(ifstream &infile, string thefilename);
 int main()
 {
     ifstream infile;
-    string thefilename;
-    cin >> thefilename;
+    string thefilename = "grimm.txt";
+    //cin >> thefilename;
     open_file(infile, thefilename);
 
     infile.close();
