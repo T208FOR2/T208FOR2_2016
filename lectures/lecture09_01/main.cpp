@@ -56,6 +56,11 @@ void insertionSort(int teljari[], string words[], int length) {
 
 void read_unique_words(ifstream &infile, string uniquewords[], int wordcount[], int &fjoldi_unique_words) {
     string s;
+
+    for (int i = 0; i < 5; i++) {
+        infile >> s;
+    }
+
     while (infile >> s) {
         int word_index = -1;
         for (int i = 0; i < fjoldi_unique_words; i++) {
