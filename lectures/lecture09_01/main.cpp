@@ -17,6 +17,13 @@ int main()
     open_file(infile, thefilename);
 
     string uniquewords[MAX_WORDS];
+    string s;
+    int fjoldi_unique_words = 0;
+
+    while (infile >> s) {
+        //???
+    }
+
 
     infile.close();
     return 0;
