@@ -21,7 +21,16 @@ int main()
     int fjoldi_unique_words = 0;
 
     while (infile >> s) {
-        //???
+        bool word_seen = false;
+        for (int i = 0; i < fjoldi_unique_words; i++) {
+            if (uniquewords[i] == s) {
+                word_seen = true;
+            }
+        }
+        if (!word_seen) {
+            uniquewords[fjoldi_unique_words] = s;
+            fjoldi_unique_words++;
+        }
     }
 
 
