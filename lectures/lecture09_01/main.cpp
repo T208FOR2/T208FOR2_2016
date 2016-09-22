@@ -5,6 +5,8 @@
 
 using namespace std;
 
+//const int MAX_WORDS = ???;
+
 void open_file(ifstream &infile, string thefilename);
 
 int main()
@@ -13,6 +15,15 @@ int main()
     string thefilename = "grimm.txt";
     //cin >> thefilename;
     open_file(infile, thefilename);
+
+    string s;
+    int teljari = 0;
+    while (infile >> s) {
+        teljari++;
+    }
+    cout << teljari << endl;
+
+    //string uniquewords[MAX_WORDS];
 
     infile.close();
     return 0;
