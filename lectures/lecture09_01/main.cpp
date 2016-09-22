@@ -38,11 +38,12 @@ void read_unique_words(ifstream &infile, string uniquewords[], int wordcount[], 
         int word_index = -1;
         for (int i = 0; i < fjoldi_unique_words; i++) {
             if (uniquewords[i] == s) {
-                word_seen = true;
+                word_index = i;
             }
         }
-        if (!word_seen) {
+        if (word_index == -1) {
             uniquewords[fjoldi_unique_words] = s;
+            wordcount[fjoldi_unique_words] = 1;
             fjoldi_unique_words++;
         }
     }
