@@ -7,6 +7,8 @@ using namespace std;
 
 const int MAX_WORDS = 100000;
 
+void insertionSort(int teljari[], string words[], int length) {
+
 void read_unique_words(ifstream &infile, string uniquewords[], int wordcount[], int &fjoldi_unique_words);
 void open_file(ifstream &infile, string thefilename);
 
@@ -32,18 +34,21 @@ int main()
     return 0;
 }
 
-void insertionSortwithShift(int teljari[], string words[], int length) {
+void insertionSort(int teljari[], string words[], int length) {
   int i, j, tmp;
   string tmp_word;
 
   for (i = 1; i < length; i++) {
     tmp = teljari[i];
+    tmp_word = words[i];
     j = i;
     while (j > 0 && teljari[j - 1] > tmp) {
       teljari[j] = teljari[j - 1];
+      words[j] = words[j - 1];
       j--;
     }
     teljari[j] = tmp;
+    words[j] = tmp_word;
   }
 }
 
