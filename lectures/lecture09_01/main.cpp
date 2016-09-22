@@ -7,6 +7,7 @@ using namespace std;
 
 const int MAX_WORDS = 100000;
 
+void read_unique_words(ifstream &infile, string uniquewords[], int &fjoldi_unique_words);
 void open_file(ifstream &infile, string thefilename);
 
 int main()
@@ -20,7 +21,7 @@ int main()
     string s;
     int fjoldi_unique_words = 0;
 
-    read_unique_words();
+    read_unique_words(infile, uniquewords, fjoldi_unique_words);
 
     for (int i = 0; i < fjoldi_unique_words; i++) {
         cout << uniquewords[i] << endl;
@@ -31,7 +32,8 @@ int main()
     return 0;
 }
 
-void read_unique_words() {
+void read_unique_words(ifstream &infile, string uniquewords[], int &fjoldi_unique_words) {
+    string s;
     while (infile >> s) {
         bool word_seen = false;
         for (int i = 0; i < fjoldi_unique_words; i++) {
