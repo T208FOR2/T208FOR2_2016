@@ -33,6 +33,10 @@ int main()
         }
     }
 
+    for (int i = 0; i < fjoldi_unique_words; i++) {
+        cout << uniquewords[i] << endl;
+    }
+    cout << "Number of unique words: " << fjoldi_unique_words << endl;
 
     infile.close();
     return 0;
