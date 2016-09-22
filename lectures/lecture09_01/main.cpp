@@ -24,7 +24,7 @@ int main()
     read_unique_words(infile, uniquewords, uniquewordcount, fjoldi_unique_words);
 
     for (int i = 0; i < fjoldi_unique_words; i++) {
-        cout << uniquewords[i] << endl;
+        cout << uniquewords[i] << " - " << uniquewordcount[i] << endl;
     }
     cout << "Number of unique words: " << fjoldi_unique_words << endl;
 
@@ -45,6 +45,9 @@ void read_unique_words(ifstream &infile, string uniquewords[], int wordcount[], 
             uniquewords[fjoldi_unique_words] = s;
             wordcount[fjoldi_unique_words] = 1;
             fjoldi_unique_words++;
+        }
+        else {
+            wordcount[word_index]++;
         }
     }
 }
