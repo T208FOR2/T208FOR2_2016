@@ -18,10 +18,10 @@ int main()
     open_file(infile, thefilename);
 
     string uniquewords[MAX_WORDS];
-    string s;
+    int uniquewordcount[MAX_WORDS];
     int fjoldi_unique_words = 0;
 
-    read_unique_words(infile, uniquewords, fjoldi_unique_words);
+    read_unique_words(infile, uniquewords, uniquewordcount, fjoldi_unique_words);
 
     for (int i = 0; i < fjoldi_unique_words; i++) {
         cout << uniquewords[i] << endl;
