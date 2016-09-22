@@ -2,8 +2,14 @@
 
 using namespace std;
 
+const int MAXFJOLDI = 100;
+
 int main()
 {
-    cout << "Hello world!" << endl;
+    string strengur[MAXFJOLDI];
+    int tala[MAXFJOLDI];
+    int notud_stok = 0;
+
+
     return 0;
 }
