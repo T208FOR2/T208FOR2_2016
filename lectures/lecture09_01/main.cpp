@@ -17,11 +17,14 @@ int main()
     open_file(infile, thefilename);
 
     string s;
-    int teljari = 0;
+    int teljari = 1;
+    infile >> s;
+    cout << s << endl;
     while (infile >> s) {
         teljari++;
     }
     cout << teljari << endl;
+    cout << s << endl;
 
     //string uniquewords[MAX_WORDS];
 
