@@ -20,6 +20,18 @@ int main()
     string s;
     int fjoldi_unique_words = 0;
 
+    read_unique_words();
+
+    for (int i = 0; i < fjoldi_unique_words; i++) {
+        cout << uniquewords[i] << endl;
+    }
+    cout << "Number of unique words: " << fjoldi_unique_words << endl;
+
+    infile.close();
+    return 0;
+}
+
+void read_unique_words() {
     while (infile >> s) {
         bool word_seen = false;
         for (int i = 0; i < fjoldi_unique_words; i++) {
@@ -32,14 +44,6 @@ int main()
             fjoldi_unique_words++;
         }
     }
-
-    for (int i = 0; i < fjoldi_unique_words; i++) {
-        cout << uniquewords[i] << endl;
-    }
-    cout << "Number of unique words: " << fjoldi_unique_words << endl;
-
-    infile.close();
-    return 0;
 }
 
 void open_file(ifstream &infile, string thefilename) {
