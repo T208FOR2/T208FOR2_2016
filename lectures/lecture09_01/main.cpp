@@ -12,7 +12,7 @@ void open_file(ifstream &infile, string thefilename);
 int main()
 {
     ifstream infile;
-    string thefilename = "grimm.txt";
+    string thefilename = "test.txt";
     //cin >> thefilename;
     open_file(infile, thefilename);
 
