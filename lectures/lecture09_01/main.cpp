@@ -15,7 +15,7 @@ void open_file(ifstream &infile, string thefilename);
 int main()
 {
     ifstream infile;
-    string thefilename = "test.txt";
+    string thefilename = "grimm.txt";
     //cin >> thefilename;
     open_file(infile, thefilename);
 
@@ -27,7 +27,7 @@ int main()
 
     insertionSort(uniquewordcount, uniquewords, fjoldi_unique_words);
 
-    for (int i = 0; i < fjoldi_unique_words; i++) {
+    for (int i = 0; i < 10; i++) {
         cout << uniquewords[i] << " - " << uniquewordcount[i] << endl;
     }
     cout << "Number of unique words: " << fjoldi_unique_words << endl;
@@ -44,7 +44,7 @@ void insertionSort(int teljari[], string words[], int length) {
     tmp = teljari[i];
     tmp_word = words[i];
     j = i;
-    while (j > 0 && teljari[j - 1] > tmp) {
+    while (j > 0 && teljari[j - 1] < tmp) {
       teljari[j] = teljari[j - 1];
       words[j] = words[j - 1];
       j--;
