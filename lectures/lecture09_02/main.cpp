@@ -12,7 +12,7 @@ int main()
     int tala[MAXFJOLDI];
     int notud_stok = 0;
 
-    while (infile >> strengur[notud_stok]) {
+    while (infile >> strengur[notud_stok] && infile >> tala[notud_stok]) {
         notud_stok++;
     }
 
