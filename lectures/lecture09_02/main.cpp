@@ -4,21 +4,8 @@ using namespace std;
 
 const int MAXFJOLDI = 100;
 
-int reiknafjoldi(string namsbraut[], int ar[], int kvk[], int kk[], int n, string valinnamsbraut, int validar)
-
 int main()
 {
-    string namsbraut[], int ar[], int kvk[], int kk[]
-    int minar = finnaminnstaar(ar);
-    int maxar = finnastaerstaar(ar);
-    int fjoldi;
-    for (int i = minar; i <= maxar; i++)
-    {
-        fjoldi = reiknafjoldi(nams, ar, kk, kvk, valinnamsbraut, i);
-        cout << i << ": " << fjoldi << endl;
-    }
-
-
     ifstream infile;
     infile.open("test.txt");
     string strengur[MAXFJOLDI];
