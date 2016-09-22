@@ -5,7 +5,7 @@
 
 using namespace std;
 
-//const int MAX_WORDS = ???;
+const int MAX_WORDS = 100000;
 
 void open_file(ifstream &infile, string thefilename);
 
@@ -16,17 +16,7 @@ int main()
     //cin >> thefilename;
     open_file(infile, thefilename);
 
-    string s;
-    int teljari = 1;
-    infile >> s;
-    cout << s << endl;
-    while (infile >> s) {
-        teljari++;
-    }
-    cout << teljari << endl;
-    cout << s << endl;
-
-    //string uniquewords[MAX_WORDS];
+    string uniquewords[MAX_WORDS];
 
     infile.close();
     return 0;
