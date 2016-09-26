@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <cctype>
 
 using namespace std;
 
@@ -8,6 +9,10 @@ int main()
     string t = "This is a text to see how the find function works.";
     cout << "012345678901234567890123456789012345678901234567890" << endl;
     cout << t << endl;
+
+    for (int i = 0; i < t.length(); i++) {
+        t[i] = tolower(t[i]);
+    }
 
     string leitarord;
     cin >> leitarord;
