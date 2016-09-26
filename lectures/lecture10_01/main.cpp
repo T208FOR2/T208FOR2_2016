@@ -9,6 +9,11 @@ int main()
     cout << "012345678901234567890123456789012345678901234567890" << endl;
     cout << t << endl;
 
+    string leitarord;
+    cin >> leitarord;
+
+    cout << t.find(leitarord) << endl;
+
     return 0;
 }
 
