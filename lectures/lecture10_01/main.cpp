@@ -5,9 +5,9 @@ using namespace std;
 
 int main()
 {
-    string texti = "01234567890123456789";
-
-    cout << texti.substr( texti.length() - 6 ,5) << endl;
+    string t = "This is a text to see how the find function works.";
+    cout << "012345678901234567890123456789012345678901234567890" << endl;
+    cout << t << endl;
 
     return 0;
 }
