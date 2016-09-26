@@ -12,9 +12,14 @@ int main()
     string leitarord;
     cin >> leitarord;
 
+    int counter = 0;
     unsigned int pos = t.find(leitarord);
     if (pos < t.length()) {
-        cout << "Found at position " << pos << endl;
+        counter = 1;
+
+
+
+        cout << "Found " << counter << " times." << endl;
     }
     else {
         cout << "Not found!" << endl;
