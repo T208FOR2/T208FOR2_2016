@@ -9,6 +9,7 @@ int main()
     int x;
 
     cin >> s;
+    cin.ignore(1000, '\n');
     cin >> x;
 
     cout << s << " and " << x << endl;
