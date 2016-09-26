@@ -17,7 +17,10 @@ int main()
     if (pos < t.length()) {
         counter = 1;
 
-
+        while ( t.find(leitarord, pos+1) < t.length() ) {
+            counter++;
+            pos = t.find(leitarord, pos+1);
+        }
 
         cout << "Found " << counter << " times." << endl;
     }
