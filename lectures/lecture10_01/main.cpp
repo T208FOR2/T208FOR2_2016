@@ -44,3 +44,14 @@ string tolower(string s) {
     }
     return s;
 }
+
+string toupper(string s) {
+    for (int i = 0; i < s.length(); i++) {
+        s[i] = toupper(s[i]);
+    }
+    return s;
+}
+
+
+
+
