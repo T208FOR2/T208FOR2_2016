@@ -17,6 +17,10 @@ int main()
     string leitarord;
     cin >> leitarord;
 
+    for (int i = 0; i < leitarord.length(); i++) {
+        leitarord[i] = tolower(leitarord[i]);
+    }
+
     int counter = 0;
     unsigned int pos = t.find(leitarord);
     if (pos < t.length()) {
