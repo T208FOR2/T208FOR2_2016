@@ -4,22 +4,20 @@
 
 using namespace std;
 
+string tolower(string s);
+
 int main()
 {
     string t = "This is a text to see how the find function works.";
     cout << "012345678901234567890123456789012345678901234567890" << endl;
     cout << t << endl;
 
-    for (int i = 0; i < t.length(); i++) {
-        t[i] = tolower(t[i]);
-    }
+    t = tolower(t);
 
     string leitarord;
     cin >> leitarord;
 
-    for (int i = 0; i < leitarord.length(); i++) {
-        leitarord[i] = tolower(leitarord[i]);
-    }
+    leitarord = tolower(leitarord);
 
     int counter = 0;
     unsigned int pos = t.find(leitarord);
@@ -40,3 +38,9 @@ int main()
     return 0;
 }
 
+string tolower(string s) {
+    for (int i = 0; i < s.length(); i++) {
+        s[i] = tolower(s[i]);
+    }
+    return s;
+}
