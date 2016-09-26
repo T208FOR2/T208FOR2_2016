@@ -3,16 +3,19 @@
 
 using namespace std;
 
+void prenta(int i);
+void prenta(string s);
+
 int main()
 {
-    string s;
-    int x;
 
-    cin >> s;
-    cin.ignore(1000, '\n');
-    cin >> x;
-
-    cout << s << " and " << x << endl;
 
     return 0;
+}
+
+void prenta(int i) {
+    cout << "I'm an int function: " << i << endl;
+}
+void prenta(string s) {
+    cout << "I'm a string function: " << s << endl;
 }
