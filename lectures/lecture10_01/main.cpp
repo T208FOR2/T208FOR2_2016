@@ -35,6 +35,8 @@ int main()
         cout << "Not found!" << endl;
     }
 
+//    pos = t.find_first_of(".,;!? \t\"")
+
     return 0;
 }
 
