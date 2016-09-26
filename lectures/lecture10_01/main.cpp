@@ -12,7 +12,13 @@ int main()
     string leitarord;
     cin >> leitarord;
 
-    cout << t.find(leitarord) << endl;
+    unsigned int pos = t.find(leitarord);
+    if (pos < t.length()) {
+        cout << "Found at position " << pos << endl;
+    }
+    else {
+        cout << "Not found!" << endl;
+    }
 
     return 0;
 }
