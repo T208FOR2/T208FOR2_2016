@@ -59,7 +59,7 @@ int main()
         pos = email.find_first_of(".", pos+1);
         cout << ". at index " << pos << endl;
 
-        if (pos < email.length()-1) {
+        if (pos >= email.length()-1) {
             emailisok = false;
             cout << "Failed check 3" << endl;
         }
