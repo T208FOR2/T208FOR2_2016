@@ -28,6 +28,7 @@ int main()
     cout << s << endl;
     */
 
+    /*
     // Problem 2: Check if email address is valid
     string email;
     cin >> email;
@@ -71,6 +72,11 @@ int main()
     else {
         cout << "This is not a valid email" << endl;
     }
+
+    */
+
+    // Problem 3: Rotate text
+
 
     return 0;
 }
