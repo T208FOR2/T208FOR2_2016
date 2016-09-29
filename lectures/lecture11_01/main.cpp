@@ -79,10 +79,12 @@ int main()
 
     // Problem 3: Rotate text
     string s;
-    cin >> s;
-    s = rotateoneplace(s);
-    s = rotateoneplace(s);
+    int n;
+    cin >> s >> n;
 
+    for (int i = 0; i < n; i++) {
+        s = rotateoneplace(s);
+    }
     cout << s << endl;
 
 
