@@ -38,7 +38,6 @@ int main()
     unsigned int pos = email.find("@");
     if (pos == 0 || pos >= email.length()-1) {
         emailisok = false;
-        cout << "Failed check 1" << endl;
     }
 
     // check two: only one @
@@ -46,14 +45,20 @@ int main()
         pos = email.find("@", pos+1);
         if ( pos < email.length() ) {
             emailisok = false;
-            cout << "Failed check 2" << endl;
         }
     }
 
     // check three: at least one period after @
     if (emailisok) {
+        cout << "012345678901234567890" << endl;
+        cout << email << endl;
+
         pos = email.find("@");
+        cout << "@ at index " << pos << endl;
+
         pos = email.find_first_of(".", pos+1);
+        cout << ". at index " << pos << endl;
+
         if (pos < email.length()-1) {
             emailisok = false;
             cout << "Failed check 3" << endl;
