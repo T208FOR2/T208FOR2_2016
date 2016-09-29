@@ -13,5 +13,15 @@ int main()
         s[i] = tolower(s[i]);
     }
 
+    s[0] = toupper(s[0]);
+
+    unsigned int pos;
+    pos = s.find_first_of(" ,.!?\"\t\\");
+    while (pos < s.length()) {
+        s[pos+1] = toupper(s[pos+1]);
+        pos = s.find_first_of(" ,.!?\"\t\\", pos+1);
+    }
+    cout << s << endl;
+
     return 0;
 }
