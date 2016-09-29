@@ -28,7 +28,29 @@ int main()
     cout << s << endl;
     */
 
-    // Problem 2:
+    // Problem 2: Check if email address is valid
+    string email;
+    cin >> email;
+
+    bool emailisok = true;
+
+    // check one: email contains @ (not in first or last place)
+    unsigned int pos = email.find("@");
+    if (pos == 0 || pos >= email.length()-1) {
+        emailisok = false;
+    }
+
+    // check two: only one @
+    if (emailisok) {
+        pos = email.find("@", pos+1);
+        if ( pos < email.length() ) {
+            emailisok = false;
+        }
+    }
+
+    // check three: at least one period after @
+    pos =
+
 
     return 0;
 }
