@@ -85,13 +85,18 @@ int main()
     while (n < 0) {
         n = n + s.length();
     }
+    n = n % s.length();
 
-    for (int i = 0; i < n; i++) {
-        s = rotateoneplace(s);
-    }
     cout << s << endl;
 
     return 0;
+}
+
+string rotatestring(string s, int n) {
+    for (int i = 0; i < n; i++) {
+        s = rotateoneplace(s);
+    }
+    return s;
 }
 
 string rotateoneplace(string s) {
