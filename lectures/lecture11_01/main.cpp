@@ -17,7 +17,7 @@ int main()
 
     unsigned int pos;
     pos = s.find_first_of(" ,.!?\"\t\\");
-    while (pos < s.length()) {
+    while (pos < s.length()-1) {
         s[pos+1] = toupper(s[pos+1]);
         pos = s.find_first_of(" ,.!?\"\t\\", pos+1);
     }
