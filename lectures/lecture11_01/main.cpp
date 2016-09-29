@@ -3,6 +3,8 @@
 #include <cctype>
 using namespace std;
 
+string rotateoneplace(string s);
+
 int main()
 {
     // Problem 1: Capitalize a sentence.
@@ -76,7 +78,19 @@ int main()
     */
 
     // Problem 3: Rotate text
+    string s;
+    cin >> s;
+    s = rotateoneplace(s);
+    s = rotateoneplace(s);
+
+    cout << s << endl;
 
 
     return 0;
 }
+
+string rotateoneplace(string s) {
+    return s[s.length()-1] + s.substr(0, s.length()-1);
+}
+
+
