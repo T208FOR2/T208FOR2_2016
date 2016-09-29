@@ -49,8 +49,20 @@ int main()
     }
 
     // check three: at least one period after @
-    pos =
+    if (emailisok) {
+        pos = email.find("@");
+        pos = email.find_first_of(".", pos+1);
+        if (pos < email.length()-1) {
+            emailisok = false;
+        }
+    }
 
+    if (emailisok) {
+        cout << "Passed all checks!" << endl;
+    }
+    else {
+        cout << "This is not a valid email" << endl;
+    }
 
     return 0;
 }
