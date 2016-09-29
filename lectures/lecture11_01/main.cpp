@@ -82,11 +82,14 @@ int main()
     int n;
     cin >> s >> n;
 
+    while (n < 0) {
+        n = n + s.length();
+    }
+
     for (int i = 0; i < n; i++) {
         s = rotateoneplace(s);
     }
     cout << s << endl;
-
 
     return 0;
 }
