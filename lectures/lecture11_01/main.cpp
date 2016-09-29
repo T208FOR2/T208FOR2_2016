@@ -3,6 +3,7 @@
 #include <cctype>
 using namespace std;
 
+string rotatestring(string s, int n);
 string rotateoneplace(string s);
 
 int main()
@@ -82,17 +83,16 @@ int main()
     int n;
     cin >> s >> n;
 
-    while (n < 0) {
-        n = n + s.length();
-    }
-    n = n % s.length();
-
-    cout << s << endl;
+    cout << rotatestring(s,n) << endl;
 
     return 0;
 }
 
 string rotatestring(string s, int n) {
+    while (n < 0) {
+        n = n + s.length();
+    }
+    n = n % s.length();
     for (int i = 0; i < n; i++) {
         s = rotateoneplace(s);
     }
