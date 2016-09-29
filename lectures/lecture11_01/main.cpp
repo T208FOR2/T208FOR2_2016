@@ -6,6 +6,7 @@ using namespace std;
 int main()
 {
     // Problem 1: Capitalize a sentence.
+    /*
     string s;
     getline(cin, s);
 
@@ -25,6 +26,9 @@ int main()
         pos = s.find_first_of(" ,.!?\"\t\\", pos+1);
     }
     cout << s << endl;
+    */
+
+    // Problem 2:
 
     return 0;
 }
