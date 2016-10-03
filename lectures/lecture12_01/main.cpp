@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -7,16 +8,10 @@ int main()
     int n;
     cin >> n;
 
-    int *p;
-    p = new int[n];
+    string *p;
+    p = new string[n];
 
-    for (int i = 0; i < n; i++) {
-        p[i] = i;
-    }
-
-    for (int i = 0; i < n; i++) {
-        cout << "p[" << i << "] = " << p[i] << endl;
-    }
+    // Do something clever with the array p
 
     delete [] p;
 
