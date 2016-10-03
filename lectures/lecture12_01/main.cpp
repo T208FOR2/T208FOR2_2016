@@ -5,14 +5,22 @@ using namespace std;
 
 int main()
 {
-    int n;
-    cin >> n;
+    int n,m;
+    cin >> n >> m;
 
-    double *p;
-    p = new double[n];
+    int **p;
+    p = new int*[n];
+    for (int i = 0; i < n; i++) {
+        p[i] = new int[m];
+    }
+
+
 
     // Do something clever with the array p
 
+    for (int i = 0; i < n; i++) {
+        delete [] p[i];
+    }
     delete [] p;
 
     return 0;
