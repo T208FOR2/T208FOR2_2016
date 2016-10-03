@@ -13,5 +13,10 @@ int main()
     p1 = &a;
     p2 = &b;
 
+    *p1 = 42;
+
+    cout << "a = " << a << endl;
+    cout << "b = " << b << endl;
+
     return 0;
 }
