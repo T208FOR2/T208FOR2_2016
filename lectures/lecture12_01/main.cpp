@@ -18,7 +18,7 @@ int main()
         cout << "p[" << i << "] = " << p[i] << endl;
     }
 
-
+    delete [] p;
 
 
     return 0;
