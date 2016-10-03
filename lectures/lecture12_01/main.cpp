@@ -13,11 +13,7 @@ int main()
 
     delete p;
 
-    p = new int;
-    *p = 28;
-    cout << *p << endl;
-
-    delete p;
+    *p = 18;
 
     return 0;
 }
