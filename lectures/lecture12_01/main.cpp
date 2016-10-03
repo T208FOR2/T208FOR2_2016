@@ -18,13 +18,7 @@ int main()
         cout << "p[" << i << "] = " << p[i] << endl;
     }
 
-    for (int i = 0; i < n; i++) {
-        cout << *p << endl;
-        p = p + 1;
-    }
-
     delete [] p;
-
 
     return 0;
 }
