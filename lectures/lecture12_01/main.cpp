@@ -15,7 +15,7 @@ int main()
 
     *p1 = 42;
 
-    p1 = p2;
+    *p1 = *p2;
 
     cout << "a = " << a << endl;
     cout << "b = " << b << endl;
