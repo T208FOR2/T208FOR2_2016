@@ -4,18 +4,14 @@ using namespace std;
 
 int main()
 {
-    int a = 42;
-    int *p;
+    int a = 83;
+    int b = 99;
 
-    p = &a;
+    int *p1;
+    int *p2 = &b;
 
-    cout << a << endl;
-    cout << *p << endl;
-
-    cout << &a << endl;
-    cout << p << endl;
-
-    cout << &p << endl;
+    p1 = &a;
+    p2 = &b;
 
     return 0;
 }
