@@ -14,9 +14,19 @@ int main()
         p[i] = new int[m];
     }
 
+    int k = 0;
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < m; j++) {
+            p[i][j] = k++;
+        }
+    }
 
-
-    // Do something clever with the array p
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < m; j++) {
+            cout << p[i][j] << " ";
+        }
+        cout << endl;
+    }
 
     for (int i = 0; i < n; i++) {
         delete [] p[i];
