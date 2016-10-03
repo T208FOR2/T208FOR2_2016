@@ -8,8 +8,8 @@ int main()
     int n;
     cin >> n;
 
-    string *p;
-    p = new string[n];
+    double *p;
+    p = new double[n];
 
     // Do something clever with the array p
 
