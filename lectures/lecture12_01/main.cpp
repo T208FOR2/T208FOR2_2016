@@ -13,7 +13,6 @@ int main()
 
     delete p;
 
-    *p = 18;
 
     return 0;
 }
