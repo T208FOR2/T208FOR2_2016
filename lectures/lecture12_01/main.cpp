@@ -4,11 +4,13 @@ using namespace std;
 
 int main()
 {
-    bool a[10];
+    int a = 42;
+    int *p;
 
-    for (int i = 0; i < 10; i++) {
-        cout << &a[i] << endl;
-    }
+    p = &a;
+
+    cout << a << endl;
+    cout << p << endl;
 
     return 0;
 }
