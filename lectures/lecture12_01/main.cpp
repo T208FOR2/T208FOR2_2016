@@ -3,6 +3,8 @@
 
 using namespace std;
 
+void print_2d_fylki(int **p, int n, int m);
+
 int main()
 {
     int n,m;
@@ -21,12 +23,7 @@ int main()
         }
     }
 
-    for (int i = 0; i < n; i++) {
-        for (int j = 0; j < m; j++) {
-            cout << p[i][j] << " ";
-        }
-        cout << endl;
-    }
+    print_2d_fylki(p,n,m);
 
     for (int i = 0; i < n; i++) {
         delete [] p[i];
@@ -35,3 +32,13 @@ int main()
 
     return 0;
 }
+
+void print_2d_fylki(int **p, int n, int m) {
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < m; j++) {
+            cout << p[i][j] << " ";
+        }
+        cout << endl;
+    }
+}
+
