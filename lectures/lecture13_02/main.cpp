@@ -13,6 +13,8 @@ int main()
     cin >> tala;
     while (tala >= 0) {
         // add to the array
+        fylki[number_of_ints] = tala;
+        number_of_ints = number_of_ints + 1;
 
         cin >> tala;
     }
