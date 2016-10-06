@@ -42,6 +42,7 @@ void double_size_of_array(int* &fylki, int &length_of_array) {
     delete [] fylki;
     fylki = tmp;
     length_of_array = length_of_array * 2;
+    cout << "The array has now space for " << length_of_array << " elements." << endl;
 }
 
 
