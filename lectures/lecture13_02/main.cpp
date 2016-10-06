@@ -16,13 +16,18 @@ int main()
         fylki[number_of_ints] = tala;
         number_of_ints = number_of_ints + 1;
 
-
+        if (number_of_ints == length_of_array) {
+            double_size_of_array(fylki, length_of_array);
+        }
 
         cin >> tala;
     }
 
     // print in reverse
-    cout << "Hi!" << endl;
+    for (int i = number_of_ints - 1; i >= 0; i--) {
+        cout << fylki[i] << " ";
+    }
+    cout << endl;
 
     return 0;
 }
