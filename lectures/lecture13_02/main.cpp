@@ -16,6 +16,8 @@ int main()
         fylki[number_of_ints] = tala;
         number_of_ints = number_of_ints + 1;
 
+
+
         cin >> tala;
     }
 
