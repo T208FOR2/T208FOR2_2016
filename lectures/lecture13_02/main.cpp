@@ -49,5 +49,3 @@ void double_size_of_array(int* &fylki, int &length_of_array) {
 }
 
 
-
-
