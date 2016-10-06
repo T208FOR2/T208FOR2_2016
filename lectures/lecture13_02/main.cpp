@@ -5,6 +5,8 @@
 
 using namespace std;
 
+typedef int* IntPtr;
+
 void double_size_of_array(int* &fylki, int &length_of_array);
 
 int main()
