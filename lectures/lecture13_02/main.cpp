@@ -5,6 +5,8 @@
 
 using namespace std;
 
+void double_size_of_array(int* &fylki, int &length_of_array);
+
 int main()
 {
     int tala, number_of_ints = 0, length_of_array = 2;
@@ -31,3 +33,17 @@ int main()
 
     return 0;
 }
+
+void double_size_of_array(int* &fylki, int &length_of_array) {
+    int *tmp = new int[length_of_array * 2];
+    for (int i = 0; i < length_of_array; i++) {
+        tmp[i] = fylki[i];
+    }
+    delete [] fylki;
+    fylki = tmp;
+    length_of_array = length_of_array * 2;
+}
+
+
+
+
