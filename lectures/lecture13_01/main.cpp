@@ -34,6 +34,8 @@ int main()
     return 0;
 }
 
+void mirror_strings(int **fylki, int n, int m)
+
 void mirror_strings(string *fylki, int n) {
     for (int i = 0; i < n/2; i++) {
         string tmp = fylki[i];
