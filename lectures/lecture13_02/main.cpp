@@ -7,7 +7,9 @@ using namespace std;
 
 int main()
 {
-    int tala;
+    int tala, number_of_ints = 0, length_of_array = 2;
+    int *fylki = new int[length_of_array];
+
     cin >> tala;
     while (tala >= 0) {
         // add to the array
