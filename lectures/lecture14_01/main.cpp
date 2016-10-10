@@ -43,7 +43,9 @@ int* fasteignasala(int *heimili, int &herbergi) {
     }
 
     delete [] heimili;
-    herbergi *= 2;
+    herbergi = herbergi * 2;
+
+    return nytt_heimili;
 }
 
 void fasteignasala(int* &heimili, int &herbergi) {
