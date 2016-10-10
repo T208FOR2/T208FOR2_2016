@@ -22,6 +22,7 @@ int main()
     cout << endl;
 
     delete [] heimili;
+    heimili = NULL;
 
     cout << "After delete ------------" << endl;
     heimili[herbergi-1] = 42;
