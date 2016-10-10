@@ -19,8 +19,12 @@ int main()
     for (int i = 0; i < herbergi; i++) {
         cout << heimili[i] << " ";
     }
+    cout << endl;
 
-    delete heimili;
+    delete [] heimili;
+
+    cout << "After delete ------------" << endl;
+    cout << heimili[herbergi-1] << endl;
 
     return 0;
 }
