@@ -23,7 +23,7 @@ int main()
     cout << endl;
 
     // Need a bigger place!
-
+    heimili = fasteignasala(heimili, herbergi);
 
     delete [] heimili;
     heimili = NULL;
