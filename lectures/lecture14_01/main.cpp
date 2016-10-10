@@ -24,6 +24,7 @@ int main()
     delete [] heimili;
 
     cout << "After delete ------------" << endl;
+    heimili[herbergi-1] = 42;
     cout << heimili[herbergi-1] << endl;
 
     return 0;
