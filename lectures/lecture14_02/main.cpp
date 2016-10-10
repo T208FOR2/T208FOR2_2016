@@ -21,6 +21,16 @@ int main()
         }
     }
 
+    cout << "-------------------" << endl;
+    for (int i = 0; i < rows; i++) {
+        for (int j = 0; j < columns; j++) {
+            cout << p[i][j] << " ";
+        }
+        cout << endl;
+    }
+
+    make_it_big(p, rows, columns);
+    cout << "-------------------" << endl;
     for (int i = 0; i < rows; i++) {
         for (int j = 0; j < columns; j++) {
             cout << p[i][j] << " ";
