@@ -42,7 +42,23 @@ void make_it_big(int** &p, int &n, int &m) {
         new_p[i] = new int[2*m];
     }
 
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < m; j++) {
+            new_p[i][j] = p[i][j];
+            new_p[i+n][j] = p[i][j];
+            new_p[i][j+m] = p[i][j];
+            new_p[i+n][j+m] = p[i][j];
+        }
+    }
 
+    for (int i = 0; i < n; i++) {
+        delete [] p[i];
+    }
+    delete [] p;
+
+    p = new_p;
+    n = 2*n;
+    m = 2*m;
 }
 
 
