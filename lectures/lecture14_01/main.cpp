@@ -27,9 +27,7 @@ int main()
     fasteignasala2(heimili, herbergi);
 
     delete [] heimili;
-    delete [] heimili;
     heimili = NULL;
-
 
     return 0;
 }
