@@ -2,7 +2,8 @@
 
 using namespace std;
 
-
+int* fasteignasala(int *heimili, int &herbergi);
+void fasteignasala(int* &heimili, int &herbergi);
 
 int main()
 {
@@ -21,6 +22,9 @@ int main()
     }
     cout << endl;
 
+    // Need a bigger place!
+
+
     delete [] heimili;
     heimili = NULL;
 
@@ -29,4 +33,17 @@ int main()
     cout << heimili[herbergi-1] << endl;
 
     return 0;
+}
+
+int* fasteignasala(int *heimili, int &herbergi) {
+    int* nytt_heimili = new int[2*herbergi];
+    for (int i = 0; i < herbergi; i++) {
+        nytt_heimili[i] = heimili[i];
+        nytt_heimili[herbergi+i] = heimili[i];
+    }
+
+}
+
+void fasteignasala(int* &heimili, int &herbergi) {
+
 }
