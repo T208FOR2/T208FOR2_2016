@@ -2,7 +2,7 @@
 
 using namespace std;
 
-
+void make_it_big(int** &p, int &n, int &m);
 
 int main()
 {
@@ -35,3 +35,17 @@ int main()
 
     return 0;
 }
+
+void make_it_big(int** &p, int &n, int &m) {
+    int **new_p = new int*[n*2];
+    for (int i = 0; i < 2*n; i++) {
+        new_p[i] = new int[2*m];
+    }
+
+
+}
+
+
+
+
+
