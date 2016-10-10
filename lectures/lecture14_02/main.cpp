@@ -37,11 +37,12 @@ int main()
 }
 
 void make_it_big(int** &p, int &n, int &m) {
+    // Step 1: Create a new array
     int **new_p = new int*[n*2];
     for (int i = 0; i < 2*n; i++) {
         new_p[i] = new int[2*m];
     }
-
+    // Step 2: Copy information
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < m; j++) {
             new_p[i][j] = p[i][j];
@@ -50,12 +51,13 @@ void make_it_big(int** &p, int &n, int &m) {
             new_p[i+n][j+m] = p[i][j];
         }
     }
-
+    // Step 3: Delete old one
     for (int i = 0; i < n; i++) {
         delete [] p[i];
     }
     delete [] p;
 
+    // Step 4: Update info, point to new array
     p = new_p;
     n = 2*n;
     m = 2*m;
