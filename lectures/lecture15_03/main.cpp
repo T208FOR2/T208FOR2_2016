@@ -12,9 +12,16 @@ public:
     string title;
     int year;
     Director directedby;
+
+    void printMovie();
 private:
 };
 
+void Movie::printMovie() {
+    cout << title << " (" << year << ")";
+    cout << " - directed by " << directedby.name;
+    cout << ", born in " << directedby.birthyear << endl;
+}
 
 void printMovie(Movie m) {
     cout << m.title << " (" << m.year << ")";
