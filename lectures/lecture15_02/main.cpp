@@ -25,10 +25,12 @@ void testfunc(Movie &m) {
 
 int main()
 {
+    Director scott = {"Ridley Scott", 1937};
     Movie m1, m2;
 
     m1.title = "Alien";
     m1.year = 1979;
+
 
     printMovie(m1);
     cout << endl;
