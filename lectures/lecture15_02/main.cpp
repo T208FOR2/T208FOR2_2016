@@ -16,6 +16,8 @@ struct Movie {
 
 void printMovie(Movie m) {
     cout << m.title << " (" << m.year << ")";
+    cout << " - directed by " << m.directedby.name;
+    cout << ", born in " << m.directedby.birthyear << endl;
 }
 
 void testfunc(Movie &m) {
