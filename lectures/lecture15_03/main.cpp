@@ -58,7 +58,12 @@ int main()
     cout << "What movie are you looking for? ";
     getline(cin, lookup);
 
-
+    for (int i = 0; i < n; i++) {
+        if (p[i].title == lookup) {
+            cout << "This is the movie: " << endl;
+            p[i].printMovie();
+        }
+    }
 
     delete [] p;
     return 0;
