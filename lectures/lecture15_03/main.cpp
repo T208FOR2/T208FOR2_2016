@@ -43,12 +43,23 @@ void printMovie(Movie m) {
 int main()
 {
     Director scott = {"Ridley Scott", 1937};
-    Movie m1;
+    int n;
+    cout << "How many movies do you own? ";
+    cin >> n;
+    cin.ignore();
 
-    m1.getInfo();
-    m1.directedby = scott;
+    Movie *p = new Movie[n];
+    for (int i = 0; i < n; i++) {
+        p[i].getInfo();
+        p[i].directedby = scott;
+    }
 
-    m1.printMovie();
+    string lookup;
+    cout << "What movie are you looking for? ";
+    getline(cin, lookup);
 
+
+
+    delete [] p;
     return 0;
 }
