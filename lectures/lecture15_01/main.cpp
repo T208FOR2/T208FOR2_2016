@@ -34,8 +34,38 @@ int main()
 }
 
 Statistics analyze_array(double *d, int n) {
+    Statistics s;
 
+    if (n <= 0) {
+        s.average = -1.0;
+        s.stddev = -1.0;
+        s.max_value = -1.0;
+        s.min_value = -1.0;
+        return s;
+    }
+
+    s.average = 0.0;
+    s.stddev = 0.0;
+    s.min_value = d[0];
+    s.max_value = d[0];
+
+    for (int i = 0; i < n; i++) {
+        s.average += d[i];
+        if (d[i] > s.max_value) {
+            s.max_value = d[i];
+        }
+        if (d[i] < s.min_value) {
+            s.min_value = d[i];
+        }
+    }
+    s.average = s.average / n;
+
+
+
+    return s;
 }
+
+
 
 
 
