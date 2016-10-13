@@ -30,6 +30,7 @@ int main()
 
     m1.title = "Alien";
     m1.year = 1979;
+    m1.directedby = scott;
 
 
     printMovie(m1);
