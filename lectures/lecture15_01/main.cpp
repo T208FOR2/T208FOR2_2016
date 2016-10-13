@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include <cmath>
 using namespace std;
 
 struct Statistics {
@@ -60,7 +60,10 @@ Statistics analyze_array(double *d, int n) {
     }
     s.average = s.average / n;
 
-
+    for (int i = 0; i < n; i++) {
+        s.stddev += (d[i]-s.average)*(d[i]-s.average);
+    }
+    s.stddev =  sqrt(s.stddev / (n-1));
 
     return s;
 }
