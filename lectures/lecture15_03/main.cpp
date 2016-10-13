@@ -7,10 +7,12 @@ struct Director {
     int birthyear;
 };
 
-struct Movie {
+class Movie {
+public:
     string title;
     int year;
     Director directedby;
+private:
 };
 
 
