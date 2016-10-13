@@ -18,12 +18,14 @@ private:
 };
 
 void Movie::printMovie() {
+    cout << "<<<<I'm part of the class!" << endl;
     cout << title << " (" << year << ")";
     cout << " - directed by " << directedby.name;
     cout << ", born in " << directedby.birthyear << endl;
 }
 
 void printMovie(Movie m) {
+    cout << "<<<<I'm outside the class..." << endl;
     cout << m.title << " (" << m.year << ")";
     cout << " - directed by " << m.directedby.name;
     cout << ", born in " << m.directedby.birthyear << endl;
@@ -39,6 +41,7 @@ int main()
     m1.directedby = scott;
 
     printMovie(m1);
+    m1.printMovie();
 
     return 0;
 }
