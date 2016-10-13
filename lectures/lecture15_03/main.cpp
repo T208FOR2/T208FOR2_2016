@@ -18,6 +18,14 @@ public:
 private:
 };
 
+void Movie::getInfo() {
+    cout << "Name of movie: ";
+    getline(cin, title);
+    cout << "Year: ";
+    cin >> year;
+    cin.ignore();
+}
+
 void Movie::printMovie() {
     cout << "<<<<I'm part of the class!" << endl;
     cout << title << " (" << year << ")";
