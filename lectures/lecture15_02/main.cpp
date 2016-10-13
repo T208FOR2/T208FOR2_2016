@@ -13,6 +13,7 @@ struct Movie {
     Director directedby;
 };
 
+
 void printMovie(Movie m) {
     cout << m.title << " (" << m.year << ")";
 }
