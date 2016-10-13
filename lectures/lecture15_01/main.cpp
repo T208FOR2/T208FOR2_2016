@@ -36,3 +36,9 @@ int main()
 Statistics analyze_array(double *d, int n) {
 
 }
+
+
+
+
+
+
