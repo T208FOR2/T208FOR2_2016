@@ -2,9 +2,15 @@
 
 using namespace std;
 
+struct Director {
+    string name;
+    int birthyear;
+};
+
 struct Movie {
     string title;
     int year;
+    Director directedby;
 };
 
 void printMovie(Movie m) {
