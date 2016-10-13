@@ -27,7 +27,7 @@ void Movie::getInfo() {
 }
 
 void Movie::printMovie() {
-    cout << "<<<<I'm part of the class!" << endl;
+//    cout << "<<<<I'm part of the class!" << endl;
     cout << title << " (" << year << ")";
     cout << " - directed by " << directedby.name;
     cout << ", born in " << directedby.birthyear << endl;
@@ -45,11 +45,9 @@ int main()
     Director scott = {"Ridley Scott", 1937};
     Movie m1;
 
-    m1.title = "Alien";
-    m1.year = 1979;
+    m1.getInfo();
     m1.directedby = scott;
 
-    printMovie(m1);
     m1.printMovie();
 
     return 0;
