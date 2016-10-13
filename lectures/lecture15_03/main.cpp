@@ -43,5 +43,9 @@ int main()
     printMovie(m1);
     m1.printMovie();
 
+    int a = 42;
+    cout << a << endl;
+    cout << m1 << endl;
+
     return 0;
 }
