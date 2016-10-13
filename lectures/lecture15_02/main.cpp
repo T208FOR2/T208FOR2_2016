@@ -11,6 +11,11 @@ void printMovie(Movie m) {
     cout << m.title << " (" << m.year << ")";
 }
 
+void testfunc(Movie &m) {
+    m.year = 9999;
+    m.title = "This thing has changed...!";
+}
+
 int main()
 {
     Movie m1, m2;
