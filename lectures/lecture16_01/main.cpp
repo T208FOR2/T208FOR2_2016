@@ -11,6 +11,9 @@ public:
     void set_minutur(int m);
 
     void output();
+
+    friend ostream& operator << (ostream& outs, const Timi &t);
+
 private:
     int klst;
     int minutur;
@@ -28,6 +31,17 @@ int main()
     cout << t << endl;
 
     return 0;
+}
+
+ostream& operator << (ostream& outs, const Timi &t) {
+    if (klst < 10) {
+        outs << "0";
+    }
+    outs << klst << ":";
+    if (minutur < 10) {
+        outs << "0";
+    }
+    outs << minutur;
 }
 
 Timi::Timi() {
