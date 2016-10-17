@@ -17,7 +17,7 @@ private:
 
 int main()
 {
-    Timi t;
+    Timi t = {23,59};
     int k,m;
     cin >> k >> m;
     t.set_klst(k);
