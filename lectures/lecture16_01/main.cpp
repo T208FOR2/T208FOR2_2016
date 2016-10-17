@@ -13,8 +13,7 @@ int main()
 {
     Timi t;
 
-    t.klst = 17;
-    t.minutur = 3;
+    cin >> t.klst >> t.minutur;
 
     t.output();
     cout << endl;
