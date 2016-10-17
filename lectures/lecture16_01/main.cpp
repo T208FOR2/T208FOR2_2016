@@ -22,6 +22,8 @@ private:
 int main()
 {
     Timi t;
+    Timi t1(90);
+    Timi t2(23,40);
     int k,m;
     cin >> k >> m;
     t.set_klst(k);
@@ -40,6 +42,7 @@ Timi::Timi() {
 }
 
 Timi::Timi(int m) {
+    cout << "I'm the minute constructor!" << endl;
     klst = 0;
     minutur = m;
 
@@ -48,6 +51,7 @@ Timi::Timi(int m) {
 }
 
 Timi::Timi(int k, int m) {
+    cout << "I'm the hour & minute constructor!" << endl;
     klst = k;
     minutur = m;
 
