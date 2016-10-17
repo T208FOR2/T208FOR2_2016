@@ -14,6 +14,8 @@ public:
 
     friend ostream& operator << (ostream& outs, const Timi &t);
     friend istream& operator >> (istream& ins, Timi &t);
+
+
 private:
     int klst;
     int minutur;
@@ -24,11 +26,16 @@ private:
 
 int main()
 {
-    Timi t;
+    Timi t1,t2;
 
-    cin >> t;
+    cin >> t1 >> t2;
 
-    cout << t << endl;
+    if (t1 > t2) {
+        cout << t1 << endl;
+    }
+    else {
+        cout << t2 << endl;
+    }
 
     return 0;
 }
