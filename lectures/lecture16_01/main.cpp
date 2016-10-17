@@ -15,6 +15,7 @@ public:
     friend ostream& operator << (ostream& outs, const Timi &t);
     friend istream& operator >> (istream& ins, Timi &t);
 
+    friend bool operator > (const Timi &lhs, const Timi &rhs);
 
 private:
     int klst;
@@ -38,6 +39,18 @@ int main()
     }
 
     return 0;
+}
+
+bool operator > (const Timi &lhs, const Timi &rhs) {
+    if (lhs.klst > rhs.klst) {
+        return true;
+    }
+    else if (lhs.klst == rhs.klst && lhs.minutur > rhs.minutur) {
+        return true;
+    }
+    else {
+        return false;
+    }
 }
 
 istream& operator >> (istream& ins, Timi &t) {
