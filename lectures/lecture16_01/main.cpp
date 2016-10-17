@@ -22,13 +22,10 @@ private:
 int main()
 {
     Timi t;
-    int k,m;
-    cin >> k >> m;
-    t.set_klst(k);
-    t.set_minutur(m);
 
-    t.output();
-    cout << endl;
+    cin >> t;
+
+    cout << t << endl;
 
     return 0;
 }
