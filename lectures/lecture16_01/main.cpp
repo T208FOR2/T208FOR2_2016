@@ -10,6 +10,9 @@ public:
 private:
     int klst;
     int minutur;
+
+    void fix_minutur();
+    void fix_klst();
 };
 
 int main()
@@ -24,6 +27,25 @@ int main()
     cout << endl;
 
     return 0;
+}
+
+void Timi::fix_minutur() {
+    while (minutur < 0) {
+        minutur += 60;
+        klst--;
+    }
+    while (minutur >= 60) {
+        minutur -= 60;
+        klst++;
+    }
+}
+void Timi::fix_klst() {
+    while (klst < 0) {
+        klst += 24;
+    }
+    while (klst >= 24) {
+        klst -= 24;
+    }
 }
 
 void Timi::set_klst(int k) {
