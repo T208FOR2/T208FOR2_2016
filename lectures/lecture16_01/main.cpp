@@ -3,10 +3,11 @@ using namespace std;
 
 class Timi {
 public:
-    int klst;
-    int minutur;
 
     void output();
+private:
+    int klst;
+    int minutur;
 };
 
 int main()
