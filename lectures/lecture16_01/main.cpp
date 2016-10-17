@@ -44,15 +44,20 @@ void Timi::fix_klst() {
         klst += 24;
     }
     while (klst >= 24) {
-        klst -= 24;
+        klst = klst - 24;
     }
 }
 
 void Timi::set_klst(int k) {
     klst = k;
+
+    fix_klst();
 }
 void Timi::set_minutur(int m) {
     minutur = m;
+
+    fix_minutur();
+    fix_klst();
 }
 
 void Timi::output() {
