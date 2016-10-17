@@ -37,17 +37,19 @@ istream& operator >> (istream& ins, Timi &t) {
     ins >> t.klst >> t.minutur;
     t.fix_minutur();
     t.fix_klst();
+    return ins;
 }
 
 ostream& operator << (ostream& outs, const Timi &t) {
-    if (klst < 10) {
+    if (t.klst < 10) {
         outs << "0";
     }
-    outs << klst << ":";
-    if (minutur < 10) {
+    outs << t.klst << ":";
+    if (t.minutur < 10) {
         outs << "0";
     }
-    outs << minutur;
+    outs << t.minutur;
+    return outs;
 }
 
 Timi::Timi() {
