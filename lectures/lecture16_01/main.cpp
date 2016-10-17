@@ -32,6 +32,7 @@ int main()
 }
 
 Timi::Timi() {
+    cout << "I'm the default constructor!" << endl;
     klst = 0;
     minutur = 0;
 }
