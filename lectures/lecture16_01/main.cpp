@@ -13,7 +13,7 @@ public:
     void output();
 
     friend ostream& operator << (ostream& outs, const Timi &t);
-
+    friend istream& operator >> (istream& ins, Timi &t);
 private:
     int klst;
     int minutur;
@@ -31,6 +31,12 @@ int main()
     cout << t << endl;
 
     return 0;
+}
+
+istream& operator >> (istream& ins, Timi &t) {
+    ins >> t.klst >> t.minutur;
+    t.fix_minutur();
+    t.fix_klst();
 }
 
 ostream& operator << (ostream& outs, const Timi &t) {
