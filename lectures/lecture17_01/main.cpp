@@ -4,15 +4,13 @@ using namespace std;
 class Timi {
 public:
     Timi();  // Constructor (default constructor)
-//    Timi(int m);
+    Timi(int m);
     Timi(int k, int m);
 
     void set_klst(int k);
     void set_minutur(int m);
 
     void output();
-
-
 
     friend ostream& operator << (ostream& outs, const Timi &t);
     friend istream& operator >> (istream& ins, Timi &t);
@@ -24,6 +22,7 @@ public:
 
     friend Timi operator + (const Timi &lhs, int tala);
 
+    friend Timi operator - (const Timi &t);
 
 private:
     int klst;
@@ -51,7 +50,7 @@ int main()
 
     t3 = 20 + t3;
 
-    cout << t3 << endl;
+    cout << -t3 << endl;
 
     return 0;
 }
@@ -122,7 +121,7 @@ Timi::Timi() {
     klst = 0;
     minutur = 0;
 }
-/*
+
 Timi::Timi(int m) {
     klst = 0;
     minutur = m;
@@ -130,7 +129,7 @@ Timi::Timi(int m) {
     fix_minutur();
     fix_klst();
 }
-*/
+
 Timi::Timi(int k, int m) {
     klst = k;
     minutur = m;
