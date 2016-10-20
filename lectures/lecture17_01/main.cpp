@@ -18,6 +18,11 @@ public:
     friend istream& operator >> (istream& ins, Timi &t);
 
     friend bool operator > (const Timi &lhs, const Timi &rhs);
+    friend bool operator >= (const Timi &lhs, const Timi &rhs);
+    friend bool operator < (const Timi &lhs, const Timi &rhs);
+    friend bool operator <= (const Timi &lhs, const Timi &rhs);
+    friend bool operator == (const Timi &lhs, const Timi &rhs);
+    friend bool operator != (const Timi &lhs, const Timi &rhs);
 
     friend Timi operator + (const Timi &lhs, const Timi &rhs);
     friend Timi operator - (const Timi &lhs, const Timi &rhs);
@@ -110,6 +115,19 @@ bool operator > (const Timi &lhs, const Timi &rhs) {
         return false;
     }
 }
+
+bool operator >= (const Timi &lhs, const Timi &rhs) {
+}
+bool operator < (const Timi &lhs, const Timi &rhs) {
+}
+bool operator <= (const Timi &lhs, const Timi &rhs) {
+}
+bool operator == (const Timi &lhs, const Timi &rhs) {
+    return lhs.klst == rhs.klst && lhs.minutur == rhs.minutur;
+}
+bool operator != (const Timi &lhs, const Timi &rhs) {
+}
+
 
 istream& operator >> (istream& ins, Timi &t) {
     ins >> t.klst >> t.minutur;
