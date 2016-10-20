@@ -54,6 +54,8 @@ int main()
 
     cout << -t3 << endl;
 
+
+
     return 0;
 }
 
@@ -117,14 +119,14 @@ istream& operator >> (istream& ins, Timi &t) {
 }
 
 ostream& operator << (ostream& outs, const Timi &t) {
-    if (t.klst < 10) {
+    if (t.get_klst() < 10) {
         outs << "0";
     }
-    outs << t.klst << ":";
-    if (t.minutur < 10) {
+    outs << t.get_klst() << ":";
+    if (t.get_minutur() < 10) {
         outs << "0";
     }
-    outs << t.minutur;
+    outs << t.get_minutur();
     return outs;
 }
 
