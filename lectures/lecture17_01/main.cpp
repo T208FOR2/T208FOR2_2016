@@ -12,6 +12,8 @@ public:
 
     void output();
 
+
+
     friend ostream& operator << (ostream& outs, const Timi &t);
     friend istream& operator >> (istream& ins, Timi &t);
 
@@ -37,6 +39,9 @@ int main()
     else {
         cout << t2 << endl;
     }
+
+    Timi t3 = addTimi(t1,t2);
+    cout << t3 << endl;
 
     return 0;
 }
