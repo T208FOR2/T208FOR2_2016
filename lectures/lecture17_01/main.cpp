@@ -48,6 +48,7 @@ int main()
 
     Timi t3 = t1 - t2;
     t3 = t3 + 40;
+    t3 = 20 + t3;
     cout << t3 << endl;
 
     return 0;
