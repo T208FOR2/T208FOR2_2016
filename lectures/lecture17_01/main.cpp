@@ -55,6 +55,15 @@ int main()
     return 0;
 }
 
+Timi operator - (const Timi &t) {
+    Timi new_t;
+    new_t.klst = -t.klst;
+    new_t.minutur = -t.minutur;
+    new_t.fix_minutur();
+    new_t.fix_klst();
+    return new_t;
+}
+
 Timi operator + (const Timi &lhs, int tala) {
     Timi new_t = lhs;
     new_t.minutur += tala;
