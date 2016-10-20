@@ -44,6 +44,7 @@ int main()
     }
 
     Timi t3 = t1 - t2;
+    t3 = t3 + 40;
     cout << t3 << endl;
 
     return 0;
@@ -62,6 +63,16 @@ Timi operator + (const Timi &lhs, const Timi &rhs) {
     return new_t;
 }
 
+Timi operator - (const Timi &lhs, const Timi &rhs) {
+    Timi new_t;
+
+    new_t.klst = lhs.klst - rhs.klst;
+    new_t.minutur = lhs.minutur - rhs.minutur;
+    new_t.fix_minutur();
+    new_t.fix_klst();
+
+    return new_t;
+}
 
 bool operator > (const Timi &lhs, const Timi &rhs) {
     if (lhs.klst > rhs.klst) {
