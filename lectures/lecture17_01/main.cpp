@@ -59,6 +59,7 @@ int main()
     if (samtals < p[0]) {
         cout << "Something...?" << endl;
     }
+    delete [] p;
 
 
     Timi t1,t2;
