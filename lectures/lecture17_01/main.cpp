@@ -117,15 +117,19 @@ bool operator > (const Timi &lhs, const Timi &rhs) {
 }
 
 bool operator >= (const Timi &lhs, const Timi &rhs) {
+    return (lhs > rhs || lhs == rhs);
 }
 bool operator < (const Timi &lhs, const Timi &rhs) {
 }
 bool operator <= (const Timi &lhs, const Timi &rhs) {
 }
+
 bool operator == (const Timi &lhs, const Timi &rhs) {
-    return lhs.klst == rhs.klst && lhs.minutur == rhs.minutur;
+    return (lhs.klst == rhs.klst && lhs.minutur == rhs.minutur);
 }
+
 bool operator != (const Timi &lhs, const Timi &rhs) {
+    return !(lhs == rhs);
 }
 
 
