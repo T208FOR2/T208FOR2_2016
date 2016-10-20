@@ -120,8 +120,10 @@ bool operator >= (const Timi &lhs, const Timi &rhs) {
     return (lhs > rhs || lhs == rhs);
 }
 bool operator < (const Timi &lhs, const Timi &rhs) {
+    return !(lhs >= rhs);
 }
 bool operator <= (const Timi &lhs, const Timi &rhs) {
+    return !(lhs > rhs);
 }
 
 bool operator == (const Timi &lhs, const Timi &rhs) {
