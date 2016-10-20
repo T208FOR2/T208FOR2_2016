@@ -18,10 +18,10 @@ public:
     friend istream& operator >> (istream& ins, Timi &t);
 
     friend bool operator > (const Timi &lhs, const Timi &rhs);
+    friend bool operator == (const Timi &lhs, const Timi &rhs);
     friend bool operator >= (const Timi &lhs, const Timi &rhs);
     friend bool operator < (const Timi &lhs, const Timi &rhs);
     friend bool operator <= (const Timi &lhs, const Timi &rhs);
-    friend bool operator == (const Timi &lhs, const Timi &rhs);
     friend bool operator != (const Timi &lhs, const Timi &rhs);
 
     friend Timi operator + (const Timi &lhs, const Timi &rhs);
@@ -41,6 +41,26 @@ private:
 
 int main()
 {
+    Timi *p;
+    int n;
+    cin >> n;
+
+    p = new Timi[n];
+    for (int i = 0; i < n; i++) {
+        cin >> p[i];
+    }
+
+    Timi samtals;
+    for (int i = 0; i < n; i++) {
+        samtals = samtals + p[i];
+    }
+    cout << samtals << endl;
+
+    if (samtals < p[0]) {
+        cout << "Something...?" << endl;
+    }
+
+
     Timi t1,t2;
 
     cin >> t1 >> t2;
