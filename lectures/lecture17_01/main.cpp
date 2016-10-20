@@ -19,7 +19,8 @@ public:
 
     friend bool operator > (const Timi &lhs, const Timi &rhs);
 
-    friend Timi addTimi(Timi t1, Timi t2);
+    friend Timi operator + (const Timi &lhs, const Timi &rhs);
+
 private:
     int klst;
     int minutur;
@@ -45,6 +46,23 @@ int main()
     cout << t3 << endl;
 
     return 0;
+}
+
+___ operator + (const ___ &lhs, const ___ &rhs) {
+    ___ newstuff;
+    ...?
+    return newstuff;
+}
+
+Timi operator + (const Timi &lhs, const Timi &rhs) {
+    Timi new_t;
+
+    new_t.klst = lhs.klst + rhs.klst;
+    new_t.minutur = lhs.minutur + rhs.minutur;
+    new_t.fix_minutur();
+    new_t.fix_klst();
+
+    return new_t;
 }
 
 bool operator > (const Timi &lhs, const Timi &rhs) {
