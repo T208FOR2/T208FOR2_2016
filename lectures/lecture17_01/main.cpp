@@ -12,7 +12,7 @@ public:
     int get_klst() const { return klst; };
     int get_minutur() const { return minutur; };
 
-    void output();
+    void output() const;
 
     friend ostream& operator << (ostream& outs, const Timi &t);
     friend istream& operator >> (istream& ins, Timi &t);
@@ -183,7 +183,7 @@ void Timi::set_minutur(int m) {
     fix_klst();
 }
 
-void Timi::output() {
+void Timi::output() const {
     if (klst < 10) {
         cout << "0";
     }
