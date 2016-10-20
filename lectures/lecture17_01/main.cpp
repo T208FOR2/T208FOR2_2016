@@ -9,8 +9,8 @@ public:
 
     void set_klst(int k);
     void set_minutur(int m);
-    int get_klst() { return klst; };
-    int get_minutur() { return minutur; };
+    int get_klst() const { return klst; };
+    int get_minutur() const { return minutur; };
 
     void output();
 
