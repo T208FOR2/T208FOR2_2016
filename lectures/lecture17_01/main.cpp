@@ -22,6 +22,9 @@ public:
     friend Timi operator + (const Timi &lhs, const Timi &rhs);
     friend Timi operator - (const Timi &lhs, const Timi &rhs);
 
+    friend Timi operator + (const Timi &lhs, int tala);
+
+
 private:
     int klst;
     int minutur;
@@ -50,6 +53,13 @@ int main()
     return 0;
 }
 
+Timi operator + (const Timi &lhs, int tala) {
+    Timi new_t = lhs;
+    new_t.minutur += tala;
+    new_t.fix_minutur();
+    new_t.fix_klst();
+    return new_t;
+}
 
 
 Timi operator + (const Timi &lhs, const Timi &rhs) {
