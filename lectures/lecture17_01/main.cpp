@@ -19,6 +19,7 @@ public:
 
     friend bool operator > (const Timi &lhs, const Timi &rhs);
 
+    friend Timi addTimi(Timi t1, Timi t2);
 private:
     int klst;
     int minutur;
@@ -40,7 +41,7 @@ int main()
         cout << t2 << endl;
     }
 
-    Timi t3 = addTimi(t1,t2);
+    Timi t3 = t1 + t2;
     cout << t3 << endl;
 
     return 0;
