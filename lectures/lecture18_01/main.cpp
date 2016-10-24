@@ -20,12 +20,8 @@ public:
 
     int length() const { return n; };
 
-    int& operator [] (int i) {
-        return p[i];
-    };       // num[i] = 42;
-    int operator [] (int i) const {
-        return p[i];
-    };  // cout << num[i]
+    int& operator [] (int i) { return p[i]; };       // num[i] = 42;
+    int operator [] (int i) const { return p[i]; };  // cout << num[i]
 
     friend ostream& operator << (ostream& outs, const Numbers &num);
 private:
