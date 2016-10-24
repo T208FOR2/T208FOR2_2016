@@ -15,6 +15,8 @@ public:
     void append(int i);
     void insert(int i, int pos);
     void remove(int pos);
+    int find(int key);
+    int find(int key, int pos);
 
     int length() const { return n; };
 
@@ -112,6 +114,18 @@ void Numbers::remove(int pos) {
     n = n - 1;
 }
 
+int Numbers::find(int key) {
+    return find(key,0);
+}
+
+int Numbers::find(int key, int pos) {
+    for (int i = pos; i < n; i++) {
+        if (p[i] == key) {
+            return i;
+        }
+    }
+    return -1;
+}
 
 void Numbers::double_size_of_array() {
     cout << "*** double size ***" << endl;
