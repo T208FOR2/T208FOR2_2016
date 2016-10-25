@@ -3,7 +3,8 @@
 
 using namespace std;
 
-class DoubleArray{
+class DoubleArray
+{
 public:
     DoubleArray(); // Færibreytulaus smiður
     DoubleArray(int initSize, double initVal); // Smiður með færibreytum
@@ -12,20 +13,21 @@ public:
 
     void operator =(const DoubleArray &sameAsMe); // Gildisveiting
 
-    double avg();
-    double std();
+    double avg() const;
+    double std() const;
 
-    friend double operator+(DoubleArray &lhs, DoubleArray &rhs);
-    friend bool operator>(DoubleArray &lhs, DoubleArray &rhs);
+    friend double operator+(const DoubleArray &lhs, const DoubleArray &rhs);
+    friend bool operator>(const DoubleArray &lhs, const DoubleArray &rhs);
 
-    friend ostream& operator<<(ostream &out, DoubleArray &da);
+    friend ostream& operator<<(ostream &out, const DoubleArray &da);
     friend istream& operator>>(istream &in, DoubleArray &da);
 private:
     double *arr;
     int size;
 };
 
-int main () {
+int main ()
+{
     // DoubleArray DA1 , DA2 (5 , 3.7) ;
 
     // cin >> DA1 ;
@@ -58,45 +60,56 @@ int main () {
 }
 
 // Færibreytulaus smiður
-DoubleArray::DoubleArray(){
+DoubleArray::DoubleArray()
+{
 }
 
 // Smiður með færibreytum
-DoubleArray::DoubleArray(int initSize, double initVal){
+DoubleArray::DoubleArray(int initSize, double initVal)
+{
 }
 
 // Afritunarsmiður
-DoubleArray::DoubleArray(const DoubleArray &copyMe){
+DoubleArray::DoubleArray(const DoubleArray &copyMe)
+{
 }
 
 // Destructor
-DoubleArray::~DoubleArray(){
+DoubleArray::~DoubleArray()
+{
 }
 
 // Gildisveiting
-void DoubleArray::operator =(const DoubleArray &sameAsMe){
+void DoubleArray::operator =(const DoubleArray &sameAsMe)
+{
 }
 
-double DoubleArray::avg(){
+double DoubleArray::avg() const
+{
     return 0;
 }
 
-double DoubleArray::std(){
+double DoubleArray::std() const
+{
     return 0;
 }
 
-double operator+(const DoubleArray &lhs, const DoubleArray &rhs){
+double operator+(const DoubleArray &lhs, const DoubleArray &rhs)
+{
     return 0;
 }
 
-double operator>(const DoubleArray &lhs, const DoubleArray &rhs){
-    return 0;
+bool operator>(const DoubleArray &lhs, const DoubleArray &rhs)
+{
+    return false;
 }
 
-ostream& operator<<(ostream &out, const DoubleArray &da){
+ostream& operator<<(ostream &out, const DoubleArray &da)
+{
     return out;
 }
 
-istream& operator>>(istream &in, DoubleArray &da){
+istream& operator>>(istream &in, DoubleArray &da)
+{
     return in;
 }
