@@ -22,39 +22,49 @@ public:
     friend ostream& operator<<(ostream &out, const DoubleArray &da);
     friend istream& operator>>(istream &in, DoubleArray &da);
 private:
+    double sum() const;
+
     double *arr;
     int size;
 };
 
 int main ()
 {
-     DoubleArray DA1, DA2(5, 3.7);
+    DoubleArray DA1, DA2(5, 3.7);
 
-     cin >> DA1;
-     cout << " DA1 : " << DA1 << endl ;
-     cout << " DA2 : " << DA2 << endl ;
+    cin >> DA1;
+    cout << " DA1 : " << DA1 << endl ;
+    cout << " DA2 : " << DA2 << endl ;
 
-//     cin >> DA2 ;
-//     cout << " DA1 + DA2 = " << DA1 + DA2 << endl ;
+    cin >> DA2 ;
+    cout << " DA1 + DA2 = " << DA1 + DA2 << endl ;
 
-    // if ( DA1 > DA2 ) {
-    //     cout << " DA1 has the highest average ! " << endl ;
-    // }
-    // else {
-    //     cout << " DA2 has the highest average ! " << endl ;
-    // }
+    if ( DA1 > DA2 )
+    {
+        cout << " DA1 has the highest average ! " << endl ;
+    }
+    else
+    {
+        cout << " DA2 has the highest average ! " << endl ;
+    }
 
-    // DoubleArray DA3 ( DA1 ) , DA4 = DA1 ;
+    DoubleArray DA3(DA1), DA4 = DA1;
 
-    // cout << " DA1 : " << endl ;
-    // cout << DA1 << endl << endl ;
+    cout << " DA1 : " << endl ;
+    cout << DA1 << endl << endl ;
 
-    // cout << " DA3 : " << endl ;
-    // cout << DA3 << endl << endl ;
+    cout << " DA3 : " << endl ;
+    cout << DA3 << endl << endl ;
 
-    // cout << " DA4 : " << endl ;
-    // cout << DA4 << endl ;
+    cout << " DA4 : " << endl ;
+    cout << DA4 << endl ;
 
+    DA4 = DA2;
+
+    cout << "DA2: " << endl;
+    cout << DA2 << endl;
+    cout << "DA4: " << endl;
+    cout << DA4 << endl;
 
     return 0;
 }
@@ -81,6 +91,13 @@ DoubleArray::DoubleArray(int initSize, double initVal)
 // Afritunarsmiður
 DoubleArray::DoubleArray(const DoubleArray &copyMe)
 {
+    size = copyMe.size;
+    arr = new double[size];
+
+    for(int i = 0; i < size; i++)
+    {
+        arr[i] = copyMe.arr[i];
+    }
 }
 
 // Destructor
@@ -95,35 +112,80 @@ DoubleArray::~DoubleArray()
 // Gildisveiting
 void DoubleArray::operator =(const DoubleArray &sameAsMe)
 {
+    size = sameAsMe.size;
+    if(arr != NULL)
+    {
+        delete[] arr;
+    }
+    arr = new double[size];
+
+    for(int i = 0; i < size; i++)
+    {
+        arr[i] = sameAsMe.arr[i];
+    }
 }
 
 double DoubleArray::avg() const
 {
-    return 0;
+    double avg = sum();
+    return avg / size;
+}
+
+double DoubleArray::sum() const
+{
+    double sum = 0;
+    for(int i = 0; i < size; i++)
+    {
+        sum += arr[i];
+    }
+    return sum;
 }
 
 double DoubleArray::std() const
 {
-    return 0;
+    double mean = avg();
+    double std = 0;
+    for(int i = 0; i < size; i++)
+    {
+        std += ((arr[i] - mean) * (arr[i] - mean));
+    }
+    std /= (size - 1);
+    return sqrt(std);
 }
 
 DoubleArray operator+(const DoubleArray &lhs, const DoubleArray &rhs)
 {
-    return DoubleArray();
+    DoubleArray newDA;
+    newDA.size = lhs.size + rhs.size;
+    newDA.arr = new double[newDA.size];
+
+    // Færa úr vinstra fylki (lhs) í nýja fylki
+    for(int i = 0; i < lhs.size; i++)
+    {
+        newDA.arr[i] = lhs.arr[i];
+    }
+
+    // Færa úr hægra fylki (rhs) í nýja fylki
+    for(int i = 0; i < rhs.size; i++)
+    {
+        newDA.arr[i + lhs.size] = rhs.arr[i];
+    }
+
+    return newDA;
 }
 
 bool operator>(const DoubleArray &lhs, const DoubleArray &rhs)
 {
-    return false;
+    double lavg = lhs.avg(), ravg = rhs.avg();
+    return lavg > ravg;
 }
 
 ostream& operator<<(ostream &out, const DoubleArray &da)
 {
-    for(int i = 0; i < da.size; i++)
-    {
-        out << da.arr[i] << " ";
-    }
     out << endl;
+    out << "n = " << da.size << ", ";
+    out << "mean = " << da.avg() << ", ";
+    out << "stddev = " << da.std() << endl;
     return out;
 }
 
