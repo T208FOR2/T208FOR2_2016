@@ -12,11 +12,27 @@ private:
     int n;
     string *p;
 
+    void add_member(string nafn);
+
     void make_space_for_one_more();
     bool is_member(string nafn);
 
     void sortgroup();
 };
+
+void GroupProject::add_member(string nafn) {
+    if ( !is_member(nafn) ) {
+        make_space_for_one_more();
+        p[n] = nafn;
+        n = n+1;
+        sortgroup();
+    }
+}
+
+void GroupProject::make_space_for_one_more() {
+    string *new_p = new string[ n+1 ];
+
+}
 
 istream& operator >> (istream &ins, GroupProject &gp) {
     int tala;
