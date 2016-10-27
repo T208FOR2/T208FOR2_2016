@@ -1,3 +1,5 @@
+#ifndef NUMBERS_H
+#define NUMBERS_H
 
 #include <iostream>
 using namespace std;
@@ -31,3 +33,5 @@ private:
 
     void double_size_of_array();
 };
+
+#endif // NUMBERS_H
