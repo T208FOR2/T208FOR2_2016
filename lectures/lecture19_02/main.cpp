@@ -23,7 +23,11 @@ namespace somethingelse {
 
 int main()
 {
+    using namespace mainfile;
+    using namespace somethingelse;
     int x = mainfile::test();
+
+    prentaeitthvad();
 
     cout << x << endl;
 
