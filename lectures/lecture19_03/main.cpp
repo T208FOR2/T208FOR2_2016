@@ -6,14 +6,27 @@ class GroupProject {
 public:
     GroupProject();
 
-    bool is_member(string nafn);
-
-    void sortgroup();
+    friend istream& operator >> (istream &ins, GroupProject &gp);
 
 private:
     int n;
     string *p;
+
+    void make_space_for_one_more();
+    bool is_member(string nafn);
+
+    void sortgroup();
 };
+
+istream& operator >> (istream &ins, GroupProject &gp) {
+    int tala;
+    ins >> tala;
+    for (int i = 0; i < tala; i++) {
+        string nafn;
+        ins >> nafn;
+
+    }
+}
 
 GroupProject::GroupProject() {
     n = 0;
@@ -37,7 +50,10 @@ void GroupProject::sortgroup() {
 
 int main()
 {
+    GroupProject gp;
 
+    cin >> gp;
+    cin >> gp;
 
     return 0;
 }
