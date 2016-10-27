@@ -18,6 +18,7 @@ namespace somethingelse {
         return 0;
     }
 
+    void prentaeitthvad();
 }
 
 int main()
@@ -27,4 +28,11 @@ int main()
     cout << x << endl;
 
     return 0;
+}
+
+
+namespace somethingelse {
+    void prentaeitthvad() {
+        cout << "eitthvad" << endl;
+    }
 }
