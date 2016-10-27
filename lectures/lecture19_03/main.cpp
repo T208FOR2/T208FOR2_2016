@@ -22,14 +22,12 @@ private:
 
 void GroupProject::add_member(string nafn) {
     if ( !is_member(nafn) ) {
-        make_space_for_one_more();
-        p[n] = nafn;
-        n = n+1;
+        make_space_for_one_more(nafn);
         sortgroup();
     }
 }
 
-void GroupProject::make_space_for_one_more() {
+void GroupProject::make_space_for_one_more(string nafn) {
     string *new_p = new string[ n+1 ];
 
 }
