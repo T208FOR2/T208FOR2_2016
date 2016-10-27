@@ -14,7 +14,7 @@ private:
 
     void add_member(string nafn);
 
-    void make_space_for_one_more();
+    void make_space_for_one_more(string nafn);
     bool is_member(string nafn);
 
     void sortgroup();
@@ -30,6 +30,17 @@ void GroupProject::add_member(string nafn) {
 void GroupProject::make_space_for_one_more(string nafn) {
     string *new_p = new string[ n+1 ];
 
+    for (int i = 0; i < n; i++) {
+        new_p[i] = p[i];
+    }
+    new_p[n] = nafn;
+    n = n+1;
+
+    if (p != NULL) {
+        delete [] p;
+    }
+
+    p = new_p;
 }
 
 istream& operator >> (istream &ins, GroupProject &gp) {
@@ -39,6 +50,7 @@ istream& operator >> (istream &ins, GroupProject &gp) {
         string nafn;
         ins >> nafn;
 
+        gp.add_member(nafn);
     }
 }
 
