@@ -2,9 +2,13 @@
 
 using namespace std;
 
-int test() {
-    cout << "Hello!" << endl;
-    return 0;
+namespace mainfile {
+
+    int test() {
+        cout << "Hello!" << endl;
+        return 0;
+    }
+
 }
 
 int main()
