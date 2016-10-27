@@ -11,9 +11,19 @@ namespace mainfile {
 
 }
 
+namespace somethingelse {
+
+    int test() {
+        cout << "Hi again!" << endl;
+        return 0;
+    }
+
+}
+
 int main()
 {
-    int x = test();
+    using namespace mainfile;
+    int x = somethingelse::test();
 
     cout << x << endl;
 
