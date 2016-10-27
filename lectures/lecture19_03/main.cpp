@@ -4,6 +4,7 @@ using namespace std;
 
 class GroupProject {
 public:
+    GroupProject();
 
     bool is_member(string nafn);
 
