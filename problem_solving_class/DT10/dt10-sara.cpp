@@ -137,17 +137,20 @@ void DoubleArray::operator =(const DoubleArray &sameAsMe)
     }
     else
     {
-        // Stillum stærðina "okkar" eins og hjá sameAsME
-        size = sameAsMe.size;
-        
-        // Ef fylkið okkar er ekki tómt þá viljum við eyða því
-        if(arr != NULL)
+        // Ef stærðirnar eru eins, þá getum við notað gamla minnið.
+        if(size != sameAsMe.size)
         {
-            delete [] arr;
-        }
+            // Stillum stærðina "okkar" eins og hjá sameAsME
+            size = sameAsMe.size;
         
-        // Búum til nýtt fylki sem er jafnt stórt og fylkið sem sameAsMe á
-        arr = new double[size];
+            // Ef fylkið okkar er ekki tómt þá viljum við eyða því
+            if(arr != NULL)
+            {
+                delete [] arr;
+            }
+            // Búum til nýtt fylki sem er jafnt stórt og fylkið sem sameAsMe á
+            arr = new double[size];
+        }
         
         // Afritum öll stökin úr fylkinu sem sameAsMe á og setjum í fylkið fyrir
         // nýja fylkinu "okkar"
