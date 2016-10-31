@@ -7,6 +7,7 @@ struct Node {
     Node* next;
 };
 
+void printlinkedlist(Node* head);
 Node* searchlinkedlist(Node* head, int value);
 
 int main()
@@ -24,11 +25,7 @@ int main()
     }
 
     // print out the linked list
-    tmp = head;
-    while (tmp != NULL) {
-        cout << tmp->data << endl;
-        tmp = tmp->next;
-    }
+    printlinkedlist(head);
 
     tmp = searchlinkedlist(head, 6);
     if (tmp != NULL) {
@@ -58,6 +55,13 @@ Node* searchlinkedlist(Node* head, int value) {
     return tmp;
 }
 
+void printlinkedlist(Node* head) {
+    Node* tmp = head;
+    while (tmp != NULL) {
+        cout << tmp->data << endl;
+        tmp = tmp->next;
+    }
+}
 
 
 
