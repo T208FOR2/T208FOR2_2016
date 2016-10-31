@@ -10,6 +10,7 @@ struct Node {
 void printlinkedlist(Node* head);
 Node* searchlinkedlist(Node* head, int value);
 void insertintolinkedlist(Node* afterme, int value);
+void deletefromlinkedlist(Node* delafterme);
 
 int main()
 {
@@ -35,6 +36,13 @@ int main()
     }
     else {
         cout << "Sorry, didn't find anything..." << endl;
+    }
+
+    printlinkedlist(head);
+
+    tmp = searchlinkedlist(head, 2);
+    if (tmp != NULL) {
+        deletefromlinkedlist(tmp);
     }
 
     printlinkedlist(head);
@@ -74,6 +82,12 @@ void insertintolinkedlist(Node* afterme, int value) {
 
     tmp->next = afterme->next;
     afterme->next = tmp;
+}
+
+void deletefromlinkedlist(Node* delafterme) {
+    Node* tmp = delafterme->next;
+    delafterme->next = delafterme->next->next;
+    delete tmp;
 }
 
 
