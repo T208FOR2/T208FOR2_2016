@@ -26,6 +26,11 @@ int main()
         tmp = tmp->next;
     }
 
+    while (head != NULL) {
+        tmp = head;
+        head = head->next;
+        delete tmp;
+    }
 
     return 0;
 }
