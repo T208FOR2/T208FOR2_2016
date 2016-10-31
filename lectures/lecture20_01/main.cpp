@@ -21,7 +21,10 @@ int main()
     }
 
     tmp = head;
-    cout << tmp->data << endl;
+    while (tmp != NULL) {
+        cout << tmp->data << endl;
+        tmp = tmp->next;
+    }
 
 
     return 0;
