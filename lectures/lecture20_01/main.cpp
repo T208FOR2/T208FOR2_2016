@@ -7,6 +7,8 @@ struct Node {
     Node* next;
 };
 
+Node* searchlinkedlist(Node* head, int value);
+
 int main()
 {
     Node *head = NULL;
@@ -37,3 +39,25 @@ int main()
 
     return 0;
 }
+
+
+Node* searchlinkedlist(Node* head, int value) {
+
+    Node* tmp = head;
+    while (tmp != NULL && tmp->data != value) {
+        tmp = tmp->next;
+    }
+
+    if (tmp == NULL) {
+        return NULL;
+    }
+    else {
+        return tmp;
+    }
+}
+
+
+
+
+
+
