@@ -20,6 +20,9 @@ int main()
         head = tmp;
     }
 
+    tmp = head;
+    cout << tmp->data << endl;
+
 
     return 0;
 }
