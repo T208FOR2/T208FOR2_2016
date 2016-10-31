@@ -9,6 +9,7 @@ struct Node {
 
 int main()
 {
+    Node *head = NULL;
 
 
     return 0;
