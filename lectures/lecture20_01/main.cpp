@@ -10,6 +10,13 @@ struct Node {
 int main()
 {
     Node *head = NULL;
+    Node *tmp;
+
+    for (int i = 0; i < 10; i++) {
+        tmp = new Node;
+
+
+    }
 
 
     return 0;
