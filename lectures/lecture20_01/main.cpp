@@ -30,6 +30,14 @@ int main()
         tmp = tmp->next;
     }
 
+    tmp = searchlinkedlist(head, 6);
+    if (tmp != NULL) {
+        cout << "Found this node: " << tmp->data << endl;
+    }
+    else {
+        cout << "Sorry, didn't find anything..." << endl;
+    }
+
     // delete the linked list
     while (head != NULL) {
         tmp = head;
