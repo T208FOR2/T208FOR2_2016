@@ -9,6 +9,7 @@ struct Node {
 
 void printlinkedlist(Node* head);
 Node* searchlinkedlist(Node* head, int value);
+void insertintolinkedlist(Node* afterme, int value);
 
 int main()
 {
@@ -30,10 +31,14 @@ int main()
     tmp = searchlinkedlist(head, 6);
     if (tmp != NULL) {
         cout << "Found this node: " << tmp->data << endl;
+        insertintolinkedlist(tmp, 42);
     }
     else {
         cout << "Sorry, didn't find anything..." << endl;
     }
+
+    printlinkedlist(head);
+
 
     // delete the linked list
     while (head != NULL) {
@@ -63,7 +68,13 @@ void printlinkedlist(Node* head) {
     }
 }
 
+void insertintolinkedlist(Node* afterme, int value) {
+    Node* tmp = new Node;
+    tmp->data = value;
 
+    tmp->next = afterme->next;
+    afterme->next = tmp;
+}
 
 
 
