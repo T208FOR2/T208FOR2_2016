@@ -42,18 +42,12 @@ int main()
 
 
 Node* searchlinkedlist(Node* head, int value) {
-
     Node* tmp = head;
     while (tmp != NULL && tmp->data != value) {
         tmp = tmp->next;
     }
 
-    if (tmp == NULL) {
-        return NULL;
-    }
-    else {
-        return tmp;
-    }
+    return tmp;
 }
 
 
