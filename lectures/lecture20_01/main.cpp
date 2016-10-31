@@ -12,6 +12,7 @@ int main()
     Node *head = NULL;
     Node *tmp;
 
+    // add 10 elements to the list
     for (int i = 0; i < 10; i++) {
         tmp = new Node;
         tmp->data = i;
@@ -20,12 +21,14 @@ int main()
         head = tmp;
     }
 
+    // print out the linked list
     tmp = head;
     while (tmp != NULL) {
         cout << tmp->data << endl;
         tmp = tmp->next;
     }
 
+    // delete the linked list
     while (head != NULL) {
         tmp = head;
         head = head->next;
