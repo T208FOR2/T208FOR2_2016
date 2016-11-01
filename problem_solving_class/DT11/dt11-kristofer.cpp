@@ -10,11 +10,14 @@ struct Node {
 typedef Node* NodePtr;
 
 void tail_insert(NodePtr &head, int number);
+void head_insert(NodePtr &head, int number);
+void insertBeforeLess(NodePtr &head, int number);
 NodePtr createNode(int number);
 void print(NodePtr head);
 void delete_list(NodePtr head);
 int get_last(NodePtr head);
 bool contains(NodePtr head, int findme);
+int count(NodePtr head);
 
 int main()
 {
@@ -24,7 +27,7 @@ int main()
     for(int i = 0; i < n; i++)
     {
         cin >> number;
-        tail_insert(head, number);
+        insertBeforeLess(head, number);
     }
     cout << "Data in list : ";
     print(head);
@@ -42,6 +45,12 @@ int main()
     {
         cout << "The number " << find << " is not in the list" << endl;
     }
+
+    cout << "Size of list: " << count(head) << endl;
+
+    insertBeforeLess(head, 7);
+    cout << "After head_insert: ";
+    print(head);
 
     delete_list(head);
     return 0;
@@ -64,6 +73,20 @@ void tail_insert(NodePtr &head, int number)
         }
         last->next = newNode;
     }
+}
+
+void head_insert(NodePtr &head, int number)
+{
+    NodePtr newNode = createNode(number);
+    if(head == NULL)
+    {
+        head = newNode;
+        return;
+    }
+
+    // Ekki með tóman lista
+    newNode->next = head;
+    head = newNode;
 }
 
 NodePtr createNode(int number)
@@ -116,4 +139,47 @@ bool contains(NodePtr head, int findme)
         head = head->next;
     }
     return false;
+}
+
+
+int count(NodePtr head)
+{
+    int counter = 0;
+    while(head != NULL)
+    {
+        counter++;
+        head = head->next;
+    }
+    return counter;
+}
+
+void insertBeforeLess(NodePtr &head, int number)
+{
+    NodePtr newNode = createNode(number);
+    if(head == NULL)
+    {
+        head = newNode;
+        return;
+    }
+
+    if(head->data < newNode->data)
+    {
+        newNode->next = head;
+        head = newNode;
+    }
+    else
+    {
+        NodePtr tmp = head;
+        while(tmp->next != NULL && tmp->next->data < newNode->data)
+        {
+            newNode->next = tmp->next;
+            tmp->next = newNode;
+            tmp = tmp->next;
+        }
+        if(tmp->next == NULL)
+        {
+            tmp->next = newNode;
+        }
+    }
+
 }
