@@ -20,6 +20,14 @@ public:
     void addChild(Person* newChild);
 };
 
+void printFamily(Person* theperson, string addspace) {
+    if (theperson == NULL) {
+        return;
+    }
+
+    cout << addspace << theperson->nafn << endl;
+
+}
 
 int main()
 {
