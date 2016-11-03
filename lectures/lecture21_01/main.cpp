@@ -16,12 +16,41 @@ public:
 
     Person();
     Person(string personname);
+
+    void addChild(Person* newChild);
 };
 
 
 int main()
 {
+    Person* Steve;
+    Person* newguy;
+    Person* tmpperson;
 
+    Steve = new Person("Steve Rogers");
+
+    newguy = new Person("Peter Parker");
+    Steve->addChild(newguy);
+    newguy->addChild(new Person("Eddie Brock"));
+    newguy->addChild(new Person("Mary Jane Watson"));
+    tmpperson = new Person("Norman Osborne");
+    newguy->addChild(tmpperson);
+    tmpperson->addChild(new Person("Harry Osborne"));
+
+    newguy = new Person("Clark Kent");
+    newguy->addChild(new Person("Lois Lane"));
+    newguy->addChild(new Person("Lex Luthor"));
+    Steve->addChild(newguy);
+    Steve->lastChild->lastChild->addChild(new Person("Lex Luthor, Jr. "));
+
+    newguy = new Person("Bruce Wayne");
+    newguy->addChild(new Person("Dick Grayson"));
+    tmpperson = new Person("Jim Gordon");
+    tmpperson->addChild(new Person("Barbara Gordon"));
+    newguy->addChild(tmpperson);
+    Steve->addChild(newguy);
+    Steve->lastChild->addChild(new Person("Bane"));
+    newguy->addChild(new Person("Oswald Chesterfield Cobblepot"));
 
     return 0;
 }
@@ -43,3 +72,23 @@ Person::Person(string personname) {
     lastChild = NULL;
     nafn = personname;
 }
+
+void Person::addChild(Person* newChild) {
+    newChild->prevSibling = lastChild;
+
+    if (lastChild != NULL) {
+        lastChild->nextSibling = newChild;
+    }
+
+    lastChild = newChild;
+
+    if (firstChild == NULL) {
+        firstChild = newChild;
+    }
+
+    newChild->parent = this;
+}
+
+
+
+
