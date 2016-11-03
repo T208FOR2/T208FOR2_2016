@@ -56,6 +56,16 @@ int main()
     tmp->next = head;
     head = tmp;
 
+    // add node a the end
+    tmp = head;
+    while (tmp->next != NULL) {
+        tmp = tmp->next;
+    }
+    tmp->next = new Node;
+    tmp->next->data = -1;
+    tmp->next->next = NULL;
+
+
     cout << "-------------" << endl;
     printlinkedlist(head);
 
