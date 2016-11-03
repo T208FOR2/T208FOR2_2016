@@ -50,6 +50,14 @@ int main()
     cout << "-------------" << endl;
     printlinkedlist(head);
 
+    // add node a the beginning:
+    tmp = new Node;
+    tmp->data = 999;
+    tmp->next = head;
+    head = tmp;
+
+    cout << "-------------" << endl;
+    printlinkedlist(head);
 
     // delete the linked list
     while (head != NULL) {
