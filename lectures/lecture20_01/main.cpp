@@ -45,6 +45,7 @@ int main()
         deletefromlinkedlist(tmp);
     }
 
+    cout << "-------------" << endl;
     printlinkedlist(head);
 
 
