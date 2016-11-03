@@ -2,6 +2,16 @@
 
 using namespace std;
 
+// greatest common divisor
+int gcd(int a, int b) {
+    if (b == 0) {
+        return a;
+    }
+    else {
+        return gcd(b, a % b);
+    }
+}
+
 int factorial_iterative(int n) {
     int sum = 1;
     for (int k = n; k > 0; k--) {
