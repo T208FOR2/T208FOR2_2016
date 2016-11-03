@@ -27,6 +27,7 @@ int main()
     }
 
     // print out the linked list
+    cout << "-------------" << endl;
     printlinkedlist(head);
 
     tmp = searchlinkedlist(head, 6);
@@ -38,6 +39,7 @@ int main()
         cout << "Sorry, didn't find anything..." << endl;
     }
 
+    cout << "-------------" << endl;
     printlinkedlist(head);
 
     tmp = searchlinkedlist(head, 2);
