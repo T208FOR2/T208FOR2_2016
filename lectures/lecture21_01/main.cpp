@@ -26,7 +26,8 @@ void printFamily(Person* theperson, string addspace) {
     }
 
     cout << addspace << theperson->nafn << endl;
-
+    printFamily(theperson->firstChild, addspace+"  ");
+    printFamily(theperson->nextSibling, addspace);
 }
 
 int main()
@@ -59,6 +60,10 @@ int main()
     Steve->addChild(newguy);
     Steve->lastChild->addChild(new Person("Bane"));
     newguy->addChild(new Person("Oswald Chesterfield Cobblepot"));
+
+    cout << endl << endl;
+    printFamily(Steve, "");
+    cout << endl << endl;
 
     return 0;
 }
