@@ -34,8 +34,12 @@ int main()
     int n;
     cin >> n;
 
-    cout << factorial_iterative(n) << endl;
-    cout << factorial(n) << endl;
+    cout << n << "! = " << factorial_iterative(n) << endl;
+    cout << n << "! = " << factorial(n) << endl;
+
+    int a,b;
+    cin >> a >> b;
+    cout << "GCD of " << a << " and " << b << " = " << gcd(a,b) << endl;
 
     return 0;
 }
