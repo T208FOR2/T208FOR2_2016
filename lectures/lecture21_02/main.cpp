@@ -12,6 +12,10 @@ int factorial_iterative(int n) {
 
 int main()
 {
+    int n;
+    cin >> n;
+
+    cout << factorial_iterative(n) << endl;
 
     return 0;
 }
