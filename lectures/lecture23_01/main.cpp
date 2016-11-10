@@ -18,14 +18,18 @@ int main() {
     }
 
     // ADD CODE HERE...
+    // adding 42
     tmp = head;
     while (tmp->data != 4) {
         tmp = tmp->next;
     }
+
     Node* node42 = new Node;
     node42->data = 42;
 
+    node42->next = tmp->next;
 
+    tmp->next = node42;
 
     // END OF ADDED CODE
 
