@@ -42,6 +42,18 @@ int main() {
     tmp->next = tmp->next->next;  // node7->next
 
     delete node7;
+
+    //reverse the list
+    Node* newhead = NULL;
+    while (head != NULL) {
+        tmp = head;
+        head = head->next;
+
+        tmp->next = newhead;
+        newhead = tmp;
+    }
+    head = newhead;
+
     // END OF ADDED CODE
 
     tmp = head;
