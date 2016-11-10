@@ -37,6 +37,11 @@ int main() {
         tmp = tmp->next;
     }
 
+    Node* node7 = tmp->next;
+
+    tmp->next = tmp->next->next;  // node7->next
+
+    delete node7;
     // END OF ADDED CODE
 
     tmp = head;
