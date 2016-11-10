@@ -31,6 +31,12 @@ int main() {
 
     tmp->next = node42;
 
+    // remove 7
+    tmp = head;
+    while (tmp->data != 6) {
+        tmp = tmp->next;
+    }
+
     // END OF ADDED CODE
 
     tmp = head;
